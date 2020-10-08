@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <Nuxt />
   </div>
 </template>
@@ -20,5 +20,15 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.container {
+  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 </style>
