@@ -38,6 +38,10 @@ export default {
     '@nuxt/content'
   ],
 
+  router: {
+    mode: 'hash'
+  },
+
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
 
