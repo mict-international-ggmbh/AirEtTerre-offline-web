@@ -4,8 +4,17 @@
       <nuxt-link to="/">
         <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
       </nuxt-link>
+      <div>{{ $route.params.language }}</div>
     </header>
-    <div>Say hello to:</div>
+    <div class="categories">
+      <category-button
+        v-for="category in categories"
+        :key="category.id"
+        class="cat"
+      >
+        {{ category.id }}
+      </category-button>
+    </div>
   </div>
 </template>
 
@@ -18,7 +27,24 @@ export default {
     const languages = ['a', 'b', 'c']
     valid = languages.includes(params.language)
     return valid
-  }
+  },
+
+  data: () => ({
+    categories: [
+      {
+        id: 'agricolture'
+      },
+      {
+        id: 'society'
+      },
+      {
+        id: 'best-practice'
+      },
+      {
+        id: 'innovation'
+      }
+    ]
+  })
 }
 </script>
 
@@ -38,5 +64,9 @@ header a img {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.cat {
+  margin-bottom: 16px;
 }
 </style>
