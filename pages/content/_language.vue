@@ -19,6 +19,8 @@
 </template>
 
 <script>
+import { categories } from '@/configs'
+
 export default {
   name: 'Content',
 
@@ -30,20 +32,7 @@ export default {
   },
 
   data: () => ({
-    categories: [
-      {
-        id: 'agricolture'
-      },
-      {
-        id: 'society'
-      },
-      {
-        id: 'best-practice'
-      },
-      {
-        id: 'innovation'
-      }
-    ]
+    categories
   })
 }
 </script>

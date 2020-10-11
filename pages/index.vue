@@ -1,8 +1,12 @@
 <template>
   <div class="wrapper">
-    <language-button :language="'a'" class="lang">Aw dansè</language-button>
-    <language-button :language="'b'" class="lang">Ne y waongo</language-button>
-    <language-button :language="'c'" class="lang">Fôfô</language-button>
+    <language-button
+      v-for="language in languages"
+      :key="language.slug"
+      class="lang"
+    >
+      {{ translations[language.code].welcome }}
+    </language-button>
     <header>
       <h1>Air et terre</h1>
     </header>
@@ -10,8 +14,15 @@
 </template>
 
 <script>
+import { languages, translations } from '@/configs'
+
 export default {
-  name: 'Index'
+  name: 'Index',
+
+  data: () => ({
+    languages,
+    translations
+  })
 }
 </script>
 <style scoped>
