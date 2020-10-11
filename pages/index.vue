@@ -3,6 +3,7 @@
     <language-button
       v-for="language in languages"
       :key="language.slug"
+      :to="`content/${language.code}`"
       class="lang"
     >
       {{ translations[language.code].welcome }}

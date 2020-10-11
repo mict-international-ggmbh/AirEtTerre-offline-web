@@ -3,7 +3,7 @@
     <div class="audio-transcription" @click="playTranscription">
       <img class="icon" :src="require(`~/assets/icons/audio-help.svg`)" />
     </div>
-    <nuxt-link :to="`content/${language}`">
+    <nuxt-link :to="to">
       <slot />
     </nuxt-link>
   </div>
@@ -14,7 +14,7 @@ export default {
   name: 'LanguageButton',
 
   props: {
-    language: {
+    to: {
       type: String,
       default: undefined
     }

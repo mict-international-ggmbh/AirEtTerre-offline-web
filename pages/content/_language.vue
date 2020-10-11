@@ -4,7 +4,7 @@
       <nuxt-link to="/">
         <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
       </nuxt-link>
-      <div>{{ $route.params.language }}</div>
+      <div>{{ getlanguageByCode($route.params.language).displayName }}</div>
     </header>
     <div class="categories">
       <category-button
@@ -19,21 +19,26 @@
 </template>
 
 <script>
-import { categories } from '@/configs'
+import { categories, languages } from '@/configs'
 
 export default {
   name: 'Content',
 
   validate({ params }) {
     let valid = false
-    const languages = ['a', 'b', 'c']
-    valid = languages.includes(params.language)
+    valid = languages.find((language) => params.language === language.code)
     return valid
   },
 
   data: () => ({
     categories
-  })
+  }),
+
+  methods: {
+    getlanguageByCode(code) {
+      return languages.find((language) => code === language.code)
+    }
+  }
 }
 </script>
 
