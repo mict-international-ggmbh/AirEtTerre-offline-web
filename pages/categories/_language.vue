@@ -10,6 +10,7 @@
       <category-button
         v-for="category in categories"
         :key="category.id"
+        :to="`content/${$route.params.language}/category/${category.id}`"
         class="cat"
       >
         {{ category.id }}
