@@ -6,6 +6,12 @@
     <nuxt-link :to="to">
       <slot />
     </nuxt-link>
+    <div
+      class="bg-img"
+      :style="{ 'background-image': `url(${backgroundUrl})` }"
+    >
+      <div class="bg-img-shade"></div>
+    </div>
   </div>
 </template>
 
@@ -17,6 +23,17 @@ export default {
     to: {
       type: String,
       default: '/'
+    },
+
+    categoryId: {
+      type: String,
+      default: undefined
+    }
+  },
+
+  computed: {
+    backgroundUrl() {
+      return require(`~/assets/categories/${this.categoryId}-button-bg.jpg`)
     }
   },
 
@@ -31,8 +48,9 @@ export default {
 
 <style scoped>
 .button {
+  position: relative;
+  z-index: 1;
   color: #fff;
-  background: #106b39;
   border-radius: 4px;
   /* max-width: 320px; */
   height: 135px;
@@ -42,9 +60,24 @@ export default {
   padding: 4px;
 }
 
+.bg-img {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-img-shade {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
 a {
   display: block;
   flex: 1;
+  z-index: 1;
   font-size: 24px;
   line-height: 26px;
   padding-left: 22px;
@@ -56,15 +89,19 @@ a {
 }
 
 .audio-transcription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 112px;
   height: 124px;
   border-radius: 2px;
   padding: 12px;
   background: rgba(255, 255, 255, 0.2);
+  z-index: 1;
 }
 
 .icon {
-  width: 100%;
-  height: 100%;
+  width: 30px;
+  height: 27px;
 }
 </style>
