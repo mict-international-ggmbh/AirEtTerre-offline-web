@@ -25,7 +25,12 @@ export default {
       default: '/'
     },
 
-    categoryId: {
+    icon: {
+      type: String,
+      default: undefined
+    },
+
+    image: {
       type: String,
       default: undefined
     }
@@ -33,7 +38,7 @@ export default {
 
   computed: {
     backgroundUrl() {
-      return require(`~/assets/categories/${this.categoryId}-button-bg.jpg`)
+      return require(`~/assets/${this.image}.jpg`)
     }
   },
 
@@ -71,7 +76,7 @@ export default {
 .bg-img-shade {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 a {
