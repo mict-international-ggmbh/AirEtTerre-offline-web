@@ -6,16 +6,7 @@
       </nuxt-link>
       <div>{{ getlanguageByCode($route.params.language).displayName }}</div>
     </header>
-    <div class="categories">
-      <category-button
-        v-for="category in categories"
-        :key="category.id"
-        :to="`${$route.params.language}/${category.id}`"
-        class="cat"
-      >
-        {{ category.id }}
-      </category-button>
-    </div>
+    <div class="categories">CONTENT</div>
   </div>
 </template>
 
@@ -23,17 +14,17 @@
 import { categories, languages } from '@/configs'
 
 export default {
-  name: 'Categories',
+  name: 'Content',
 
   validate({ params }) {
     let valid = false
+    console.log('params', params)
     valid = languages.find((language) => params.language === language.code)
+    if (!valid) return valid
+    valid = categories.find((category) => params.category === category.id)
+
     return valid
   },
-
-  data: () => ({
-    categories
-  }),
 
   methods: {
     getlanguageByCode(code) {
