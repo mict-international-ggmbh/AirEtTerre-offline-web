@@ -53,4 +53,10 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
 </style>
