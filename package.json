@@ -15,7 +15,9 @@
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
     "hooper": "^0.3.4",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "plyr": "^3.6.2",
+    "vue-plyr": "^6.0.4"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
