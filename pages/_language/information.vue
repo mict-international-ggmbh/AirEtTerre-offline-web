@@ -3,23 +3,19 @@
     <app-header :back-link="`/${$route.params.language}`">
       {{ getlanguageByCode($route.params.language).displayName }}
     </app-header>
-    <div class="categories">CONTENT</div>
+    <div class="categories">Information TBD</div>
   </div>
 </template>
 
 <script>
-import { categories, languages } from '@/configs'
+import { languages } from '@/configs'
 
 export default {
-  name: 'Content',
+  name: 'Categories',
 
   validate({ params }) {
     let valid = false
-    console.log('params', params)
     valid = languages.find((language) => params.language === language.code)
-    if (!valid) return valid
-    valid = categories.find((category) => params.category === category.id)
-
     return valid
   },
 
@@ -32,7 +28,7 @@ export default {
 </script>
 
 <style scoped>
-.cat {
-  margin-bottom: 16px;
+.dark {
+  stroke: black;
 }
 </style>
