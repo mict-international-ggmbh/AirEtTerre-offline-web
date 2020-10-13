@@ -4,7 +4,12 @@
       {{ getlanguageByCode($route.params.language).displayName }}
     </app-header>
     <div class="content">
-      <hooper ref="gallery" :wheel-control="false">
+      <hooper
+        ref="gallery"
+        :wheel-control="false"
+        :mouse-drag="false"
+        :touch-drag="false"
+      >
         <hooper-slide v-for="(part, index) in content" :key="index">
           {{ part.title }}
           <template v-if="part.type === 'audio'">
@@ -73,6 +78,10 @@ export default {
 </script>
 
 <style>
+.hooper {
+  height: auto;
+}
+
 .hooper-slide:focus,
 .hooper-track:focus,
 .hooper-list:focus,
