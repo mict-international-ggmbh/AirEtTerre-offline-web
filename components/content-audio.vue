@@ -1,6 +1,6 @@
 <template>
   <div class="audio">
-    <template v-if="player">
+    <div v-if="player" class="audio-controls">
       <img
         v-if="!playing && !ended"
         src="~/assets/icons/content-audio-play.svg"
@@ -16,7 +16,7 @@
         src="~/assets/icons/content-audio-replay.svg"
         @click="replay"
       />
-    </template>
+    </div>
     <vue-plyr
       ref="plyr"
       :options="options"
@@ -91,7 +91,41 @@ export default {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-
   color: #fff;
+  height: 278px;
+}
+
+.audio-controls {
+  padding-top: 64px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plyr--audio .plyr__controls {
+  background-color: transparent;
+}
+
+.plyr--audio .plyr__controls input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  background: #ffffff; */
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  /* box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; Add cool effects to your sliders! */
+
+  width: 36px;
+  height: 36px;
+  border-radius: 3px;
+
+  background: transparent;
+  border: 4px solid #114778;
+
+  background-image: url('~assets/icons/audio-seek-handle.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
