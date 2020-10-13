@@ -6,17 +6,11 @@
     <div class="content">
       <hooper ref="gallery" :wheel-control="false">
         <hooper-slide v-for="(part, index) in content" :key="index">
+          {{ part.title }}
           <template v-if="part.type === 'audio'">
-            {{ part.title }}
-            <div class="audio">
-              <audio
-                controls
-                :src="`/media/${$route.params.language}/${$route.params.category}/${part.src}`"
-              >
-                Your browser does not support the
-                <code>audio</code> element.
-              </audio>
-            </div>
+            <content-audio
+              :src="`/media/${$route.params.language}/${$route.params.category}/${part.src}`"
+            />
           </template>
         </hooper-slide>
         <template slot="hooper-addons">
@@ -112,14 +106,5 @@ export default {
 .hooper-next {
   top: auto;
   bottom: -98px;
-}
-
-.audio {
-  width: 100%;
-  height: 278px;
-  background-image: url('~assets/audio-bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 </style>
