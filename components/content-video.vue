@@ -60,24 +60,13 @@ export default {
   methods: {
     ...mapMutations(['setCurrentlyPlaying']),
 
-    play() {
-      this.setCurrentlyPlaying(this.src)
-      this.player.play()
-    },
-    pause() {
-      this.setCurrentlyPlaying(undefined)
-      this.player.pause()
-    },
-    replay() {
-      this.player.restart()
-      this.play()
-      this.ended = false
-    },
     onPlay() {
       this.playing = true
+      this.setCurrentlyPlaying(this.src)
     },
     onPause() {
       this.playing = false
+      this.setCurrentlyPlaying(undefined)
     },
     onEnd() {
       this.ended = true

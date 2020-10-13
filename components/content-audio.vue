@@ -78,11 +78,9 @@ export default {
     ...mapMutations(['setCurrentlyPlaying']),
 
     play() {
-      this.setCurrentlyPlaying(this.src)
       this.player.play()
     },
     pause() {
-      this.setCurrentlyPlaying(undefined)
       this.player.pause()
     },
     replay() {
@@ -92,9 +90,11 @@ export default {
     },
     onPlay() {
       this.playing = true
+      this.setCurrentlyPlaying(this.src)
     },
     onPause() {
       this.playing = false
+      this.setCurrentlyPlaying(undefined)
     },
     onEnd() {
       this.ended = true
