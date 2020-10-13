@@ -91,3 +91,5 @@ sw.*
 
 # dist archves
 *-dist.tar.gz
+
+static/media/
