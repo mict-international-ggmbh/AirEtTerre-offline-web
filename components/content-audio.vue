@@ -33,6 +33,8 @@
 </template>
 
 <script>
+import { mapState, mapMutations } from 'vuex'
+
 export default {
   name: 'ContentAudio',
 
@@ -52,6 +54,18 @@ export default {
     ended: false
   }),
 
+  computed: {
+    ...mapState(['currentlyPlaying'])
+  },
+
+  watch: {
+    currentlyPlaying(nv, ov) {
+      if (nv && nv !== this.src && this.playing) {
+        this.player.pause()
+      }
+    }
+  },
+
   mounted() {
     this.$nextTick(function () {
       this.player = this.$refs.plyr.player
@@ -59,10 +73,14 @@ export default {
   },
 
   methods: {
+    ...mapMutations(['setCurrentlyPlaying']),
+
     play() {
+      this.setCurrentlyPlaying(this.src)
       this.player.play()
     },
     pause() {
+      this.setCurrentlyPlaying(undefined)
       this.player.pause()
     },
     replay() {
