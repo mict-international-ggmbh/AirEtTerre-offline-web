@@ -17,6 +17,11 @@
               :src="`/media/${$route.params.language}/${$route.params.category}/${part.src}`"
             />
           </template>
+          <template v-if="part.type === 'video'">
+            <content-video
+              :src="`/media/${$route.params.language}/${$route.params.category}/${part.src}`"
+            />
+          </template>
         </hooper-slide>
         <template slot="hooper-addons">
           <hooper-navigation />
