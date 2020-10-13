@@ -47,7 +47,9 @@ export default {
 
   data: () => ({
     options: {
-      controls: ['progress']
+      controls: ['progress'],
+      loadSprite: false,
+      iconUrl: '/plyr.svg'
     },
     player: undefined,
     playing: false,
