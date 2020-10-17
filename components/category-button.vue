@@ -51,7 +51,6 @@ export default {
   z-index: 1;
   color: #fff;
   border-radius: 4px;
-  /* max-width: 320px; */
   height: 135px;
   display: flex;
   justify-content: flex-start;
@@ -61,13 +60,17 @@ export default {
 
 .bg-img {
   position: absolute;
+  border-radius: 4px;
   z-index: 0;
-  width: 100%;
-  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg-img-shade {
+  border-radius: 4px;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
