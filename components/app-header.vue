@@ -27,7 +27,6 @@ header {
   display: flex;
   height: 62px;
   align-items: center;
-  margin-bottom: 16px;
 }
 
 header a {

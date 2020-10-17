@@ -82,6 +82,12 @@ export default {
 </script>
 
 <style scoped>
+.categories {
+  margin: 0 -20px 0 -20px;
+  padding: 20px 20px 0 20px;
+  background-color: #edfff1;
+}
+
 .cat {
   margin-bottom: 16px;
 }

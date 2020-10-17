@@ -98,6 +98,10 @@ export default {
 </script>
 
 <style scoped>
+.content {
+  padding-top: 20px;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
