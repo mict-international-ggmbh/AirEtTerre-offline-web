@@ -51,5 +51,17 @@ export default {
   server: {
     port: 3010, // default: 3000
     host: '0.0.0.0' // default: localhost
+  },
+
+  workbox: {
+    globPatterns: ['**/*.{js,css,html,json,jpg,png,svg}'],
+    workboxURL: '/workbox/workbox-sw.js',
+    navigateFallback: '/404.html',
+    publicPath: '/',
+    config: {
+      modulePathPrefix: '/workbox/'
+    },
+    preCaching: ['index.html', '/workbox/workbox-sw.js'],
+    runtimeCaching: []
   }
 }
