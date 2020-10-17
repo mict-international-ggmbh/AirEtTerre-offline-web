@@ -38,7 +38,7 @@ header a {
   display: block;
   width: 26px;
   margin-left: -6px;
-  margin-right: 18px;
+  margin-right: 24px;
   overflow: hidden;
 }
 header a img {
@@ -54,6 +54,6 @@ header a img {
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  font-size: 20px;
+  font-size: 24px;
 }
 </style>
