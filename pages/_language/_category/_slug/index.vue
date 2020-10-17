@@ -25,28 +25,30 @@
           :src="`/media/${$route.params.language}/${$route.params.category}/${content.src}`"
         />
       </template>
-      <div class="navigation">
-        <div class="nav prev">
-          <nuxt-link
-            v-if="contentPosition > 0"
-            :to="`/${$route.params.language}/${$route.params.category}/${contentPosition}`"
-          >
-            &lt;
-          </nuxt-link>
-        </div>
-        <div class="position">
-          {{ contentPosition + 1 }} / {{ contentLength }}
-        </div>
-        <div class="nav next">
-          <nuxt-link
-            v-if="contentPosition + 1 < contentLength"
-            :to="`/${$route.params.language}/${$route.params.category}/${
-              contentPosition + 2
-            }`"
-          >
-            &gt;
-          </nuxt-link>
-        </div>
+    </div>
+    <div class="navigation">
+      <div class="nav prev">
+        <nuxt-link
+          tag="button"
+          :disabled="contentPosition <= 0"
+          :to="`/${$route.params.language}/${$route.params.category}/${contentPosition}`"
+        >
+          <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
+        </nuxt-link>
+      </div>
+      <div class="position">
+        {{ contentPosition + 1 }} / {{ contentLength }}
+      </div>
+      <div class="nav next">
+        <nuxt-link
+          tag="button"
+          :disabled="contentPosition + 1 >= contentLength"
+          :to="`/${$route.params.language}/${$route.params.category}/${
+            contentPosition + 2
+          }`"
+        >
+          <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
+        </nuxt-link>
       </div>
     </div>
   </div>
@@ -57,20 +59,6 @@ import { categories, languages, i18n } from '@/configs'
 
 export default {
   name: 'Content',
-
-  data: () => ({
-    i18n
-  }),
-
-  validate({ params }) {
-    let valid = false
-    console.log('params', params)
-    valid = languages.find((language) => params.language === language.code)
-    if (!valid) return valid
-    valid = categories.find((category) => params.category === category.id)
-
-    return valid
-  },
 
   async asyncData({ $content, params }) {
     let { content } = await $content(`${params.language}/content`).fetch()
@@ -89,6 +77,20 @@ export default {
     }
   },
 
+  data: () => ({
+    i18n
+  }),
+
+  validate({ params }) {
+    let valid = false
+    console.log('params', params)
+    valid = languages.find((language) => params.language === language.code)
+    if (!valid) return valid
+    valid = categories.find((category) => params.category === category.id)
+
+    return valid
+  },
+
   methods: {
     getlanguageByCode(code) {
       return languages.find((language) => code === language.code)
@@ -103,13 +105,29 @@ export default {
 }
 
 .navigation {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  padding: 0 20px 0 20px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .nav {
-  width: 60px;
+  width: 24px;
+}
+
+.nav.next img {
+  transform: rotate(180deg);
+}
+
+.nav button:disabled {
+  opacity: 0.2;
 }
 
 .content-header {
