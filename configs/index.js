@@ -43,14 +43,35 @@ export const categories = [
 export const translations = {
   dyu: {
     welcome: 'Aw dansè',
-    welcomeAudio: '/media/dyu/Aw dansè.mp3'
+    audio: {
+      welcome: '/media/dyu/Aw dansè.mp3',
+      agricolture: '/media/dyu/Kɛnyɛrɛye baaraw.mp3',
+      society: '/media/dyu/Jamakulu.mp3',
+      'best-practice': '/media/dyu/Kɛwaleɲumanw.mp3',
+      innovation: '/media/dyu/Kokuraw dilanni.mp3',
+      information: '/media/dyu/Kunnafoniw.mp3'
+    }
   },
   mos: {
     welcome: 'Ne-y waongo',
-    welcomeAudio: '/media/mos/Ne-y waongo.mp3'
+    audio: {
+      welcome: '/media/mos/Ne-y waongo.mp3',
+      agricolture: '/media/mos/Naafa Noug-touumdé.mp3',
+      society: '/media/mos/Niinsaal Zamaana.mp3',
+      'best-practice': '/media/mos/Tuum soõman.mp3',
+      innovation: '/media/mos/Tuum Paala.mp3',
+      information: '/media/mos/Kibaya.mp3'
+    }
   },
   ful: {
     welcome: 'Fôfô',
-    welcomeAudio: '/media/ful/fôfô.mp3'
+    audio: {
+      welcome: '/media/ful/fôfô.mp3',
+      agricolture: '/media/ful/Jaagagol.mp3',
+      society: '/media/ful/Jamaa.mp3',
+      'best-practice': '/media/ful/Golle lobbe.mp3',
+      innovation: '/media/ful/Heydinetinegol.mp3',
+      information: '/media/ful/Kibaru.mp3'
+    }
   }
 }

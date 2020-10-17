@@ -6,7 +6,7 @@
       :key="language.slug"
       :to="`${language.code}`"
       class="lang"
-      @play="$refs.player.play(translations[language.code].welcomeAudio)"
+      @play="$refs.player.play(translations[language.code].audio.welcome)"
     >
       {{ translations[language.code].welcome }}
     </language-button>

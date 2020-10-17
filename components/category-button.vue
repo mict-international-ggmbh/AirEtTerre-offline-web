@@ -46,6 +46,7 @@ export default {
     playTranscription(e) {
       e.preventDefault()
       console.log('transcription')
+      this.$emit('play')
     }
   }
 }

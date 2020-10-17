@@ -11,6 +11,11 @@
           :image="`${category.id}-button-bg`"
           :to="`${$route.params.language}/${category.id}/1`"
           class="cat"
+          @play="
+            $refs.player.play(
+              translations[$route.params.language].audio[category.id]
+            )
+          "
         >
           <category-icon class="cat-icon" :category-id="category.id" />
         </category-button>
@@ -20,6 +25,11 @@
         image="information-button-bg"
         :to="`${$route.params.language}/information`"
         class="info"
+        @play="
+          $refs.player.play(
+            translations[$route.params.language].audio.information
+          )
+        "
       >
         <img
           class="cat-icon"
@@ -27,11 +37,12 @@
         />
       </category-button>
     </div>
+    <audio-transcription-player ref="player" />
   </div>
 </template>
 
 <script>
-import { categories, languages } from '@/configs'
+import { categories, languages, translations } from '@/configs'
 
 export default {
   name: 'Categories',
@@ -62,7 +73,8 @@ export default {
   },
 
   data: () => ({
-    categories
+    categories,
+    translations
   }),
 
   methods: {
