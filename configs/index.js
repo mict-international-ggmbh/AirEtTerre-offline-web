@@ -42,12 +42,15 @@ export const categories = [
 
 export const translations = {
   dyu: {
-    welcome: 'Aw dansè'
+    welcome: 'Aw dansè',
+    welcomeAudio: '/media/dyu/Aw dansè.mp3'
   },
   mos: {
-    welcome: 'Ne-y waongo'
+    welcome: 'Ne-y waongo',
+    welcomeAudio: '/media/mos/Ne-y waongo.mp3'
   },
   ful: {
-    welcome: 'Fôfô'
+    welcome: 'Fôfô',
+    welcomeAudio: '/media/ful/fôfô.mp3'
   }
 }
