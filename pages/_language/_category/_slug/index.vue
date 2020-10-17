@@ -14,6 +14,14 @@
         <h1>
           {{ content.title }}
         </h1>
+        <div class="download">
+          <a
+            :href="`/media/${$route.params.language}/${$route.params.category}/${content.src}`"
+            download
+          >
+            <img :src="require(`~/assets/icons/download.svg`)" />
+          </a>
+        </div>
       </div>
       <template v-if="content.type === 'audio'">
         <content-audio
@@ -145,6 +153,14 @@ export default {
   min-width: 54px;
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 2px;
+}
+.download {
+  width: 54px;
+  min-width: 54px;
+  display: flex;
+  justify-content: flex-end;
   align-items: flex-start;
   padding-top: 2px;
 }
