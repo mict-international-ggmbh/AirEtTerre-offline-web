@@ -1,7 +1,7 @@
 <template>
-  <div class="audio-transcription" @click="$emit('click')">
+  <button class="audio-transcription" @click="$emit('click')">
     <img class="icon" :src="require(`~/assets/icons/audio-help.svg`)" />
-  </div>
+  </button>
 </template>
 
 <script>
