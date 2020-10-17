@@ -1,8 +1,9 @@
 <template>
   <div class="button">
-    <div class="audio-transcription" @click="playTranscription">
-      <img class="icon" :src="require(`~/assets/icons/audio-help.svg`)" />
-    </div>
+    <audio-transcription-button
+      class="audio-transcription"
+      @click="$emit('play')"
+    />
     <nuxt-link :to="to">
       <slot />
     </nuxt-link>
@@ -39,14 +40,6 @@ export default {
   computed: {
     backgroundUrl() {
       return require(`~/assets/${this.image}.jpg`)
-    }
-  },
-
-  methods: {
-    playTranscription(e) {
-      e.preventDefault()
-      console.log('transcription')
-      this.$emit('play')
     }
   }
 }
@@ -95,15 +88,8 @@ a {
 }
 
 .audio-transcription {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 112px;
   height: 124px;
-  border-radius: 2px;
-  padding: 12px;
-  background: rgba(255, 255, 255, 0.2);
-  z-index: 1;
 }
 
 .icon {
