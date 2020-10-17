@@ -4,17 +4,19 @@
       {{ getlanguageByCode($route.params.language).displayName }}
     </app-header>
     <div class="categories">
-      <category-button
-        v-for="category in categories"
-        :key="category.id"
-        :image="`${category.id}-button-bg`"
-        :to="`${$route.params.language}/${category.id}`"
-        class="cat"
-      >
-        <div class="cat-icon">
-          <img :src="require(`~/assets/icons/${category.id}.svg`)" />
-        </div>
-      </category-button>
+      <template v-for="category in categories">
+        <category-button
+          v-if="availableCategories.includes(category.id)"
+          :key="category.id"
+          :image="`${category.id}-button-bg`"
+          :to="`${$route.params.language}/${category.id}/1`"
+          class="cat"
+        >
+          <div class="cat-icon">
+            <img :src="require(`~/assets/icons/${category.id}.svg`)" />
+          </div>
+        </category-button>
+      </template>
 
       <category-button
         image="information-button-bg"
@@ -40,6 +42,25 @@ export default {
     let valid = false
     valid = languages.find((language) => params.language === language.code)
     return valid
+  },
+
+  async asyncData({ $content, params }) {
+    const { content } = await $content(`${params.language}/content`).fetch()
+
+    console.log('Content', content)
+    const availableCategories = content.reduce((accumulator, currentValue) => {
+      console.log(accumulator, !accumulator.includes(currentValue.category))
+      const categories = !accumulator.includes(currentValue.category)
+        ? [...accumulator, currentValue.category]
+        : accumulator
+
+      return categories
+    }, [])
+    console.log('availableCategories', availableCategories)
+    return {
+      availableCategories,
+      content
+    }
   },
 
   data: () => ({

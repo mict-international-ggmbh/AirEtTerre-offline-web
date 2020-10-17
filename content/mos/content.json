@@ -1,23 +1,27 @@
 {
   "content": [
     {
-      "title": "Contour bunds",
+      "category": "best-practice",
       "type": "audio",
+      "title": "Contour bunds",
       "src": "033 Contour bunds - MOORE.mp3"
     },
     {
-      "title": "Zaï planting pits",
+      "category": "best-practice",
       "type": "audio",
+      "title": "Zaï planting pits",
       "src": "043 SLM06 Zaï planting pits - MOORE.mp3"
     },
     {
-      "title": "Contour bunds",
+      "category": "best-practice",
       "type": "video",
+      "title": "Contour bunds",
       "src": "033 Contour bunds - MOORE.mp4"
     },
     {
-      "title": "Zaï planting pits",
+      "category": "best-practice",
       "type": "video",
+      "title": "Zaï planting pits",
       "src": "043 SLM06 Zaï planting pits - MOORE.mp4"
     }
   ]
