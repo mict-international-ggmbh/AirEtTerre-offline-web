@@ -2,7 +2,7 @@
   <div class="wrapper">
     <app-header class="header" :back-link="`/${$route.params.language}`">
       <div class="header-category">
-        {{ i18n[$route.params.category] }}
+        {{ i18n[$route.params.language][$route.params.category] }}
       </div>
       <category-icon class="cat-icon" :category-id="$route.params.category" />
     </app-header>
@@ -53,10 +53,14 @@
 </template>
 
 <script>
-import { categories, languages } from '@/configs'
+import { categories, languages, i18n } from '@/configs'
 
 export default {
   name: 'Content',
+
+  data: () => ({
+    i18n
+  }),
 
   validate({ params }) {
     let valid = false
@@ -69,7 +73,6 @@ export default {
   },
 
   async asyncData({ $content, params }) {
-    const i18n = await $content(`${params.language}/i18n`).fetch()
     let { content } = await $content(`${params.language}/content`).fetch()
 
     const contentPosition = params.slug - 1
@@ -82,8 +85,7 @@ export default {
     return {
       content: content[contentPosition],
       contentLength,
-      contentPosition,
-      i18n
+      contentPosition
     }
   },
 

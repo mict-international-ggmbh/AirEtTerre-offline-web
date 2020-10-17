@@ -6,9 +6,9 @@
       :key="language.slug"
       :to="`${language.code}`"
       class="lang"
-      @play="$refs.player.play(translations[language.code].audio.welcome)"
+      @play="$refs.player.play(i18n[language.code].audio.welcome)"
     >
-      {{ translations[language.code].welcome }}
+      {{ i18n[language.code].welcome }}
     </language-button>
     <audio-transcription-player ref="player" />
     <header>
@@ -18,14 +18,14 @@
 </template>
 
 <script>
-import { languages, translations } from '@/configs'
+import { languages, i18n } from '@/configs'
 
 export default {
   name: 'Index',
 
   data: () => ({
     languages,
-    translations,
+    i18n,
     audioTranscription: undefined
   })
 }

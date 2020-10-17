@@ -40,9 +40,13 @@ export const categories = [
   }
 ]
 
-export const translations = {
+export const i18n = {
   dyu: {
     welcome: 'Aw dansè',
+    agricolture: 'kɛnyɛrɛye baaraw',
+    society: 'jamakulu',
+    'best-practice': 'kɛwaleɲumanw',
+    innovation: 'kokuraw dilanni',
     audio: {
       welcome: '/media/dyu/Aw dansè.mp3',
       agricolture: '/media/dyu/Kɛnyɛrɛye baaraw.mp3',
@@ -54,6 +58,10 @@ export const translations = {
   },
   mos: {
     welcome: 'Ne-y waongo',
+    agricolture: 'Naafa Noug-touumdé',
+    society: 'Niinsaal Zamaana',
+    'best-practice': 'Tuum soõman',
+    innovation: 'Tuum Paala',
     audio: {
       welcome: '/media/mos/Ne-y waongo.mp3',
       agricolture: '/media/mos/Naafa Noug-touumdé.mp3',
@@ -65,6 +73,10 @@ export const translations = {
   },
   ful: {
     welcome: 'Fôfô',
+    agricolture: 'jaagagol',
+    society: 'jamaa',
+    'best-practice': 'golle lobbe',
+    innovation: 'heydinetinegol',
     audio: {
       welcome: '/media/ful/fôfô.mp3',
       agricolture: '/media/ful/Jaagagol.mp3',
