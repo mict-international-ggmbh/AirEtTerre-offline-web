@@ -1,10 +1,20 @@
 <template>
   <div class="wrapper">
-    <app-header :back-link="`/${$route.params.language}`">
-      {{ getlanguageByCode($route.params.language).displayName }}
+    <app-header class="header" :back-link="`/${$route.params.language}`">
+      <div class="header-category">
+        {{ i18n[$route.params.category] }}
+      </div>
+      <category-icon class="cat-icon" :category-id="$route.params.category" />
     </app-header>
     <div class="content">
-      {{ content.title }}
+      <div class="content-header">
+        <div class="media-type">
+          <img :src="require(`~/assets/icons/${content.type}.svg`)" />
+        </div>
+        <h1>
+          {{ content.title }}
+        </h1>
+      </div>
       <template v-if="content.type === 'audio'">
         <content-audio
           :src="`/media/${$route.params.language}/${$route.params.category}/${content.src}`"
@@ -59,6 +69,7 @@ export default {
   },
 
   async asyncData({ $content, params }) {
+    const i18n = await $content(`${params.language}/i18n`).fetch()
     let { content } = await $content(`${params.language}/content`).fetch()
 
     const contentPosition = params.slug - 1
@@ -71,7 +82,8 @@ export default {
     return {
       content: content[contentPosition],
       contentLength,
-      contentPosition
+      contentPosition,
+      i18n
     }
   },
 
@@ -92,5 +104,24 @@ export default {
 
 .nav {
   width: 60px;
+}
+
+.content-header {
+  min-height: 72px;
+  display: flex;
+  text-align: left;
+}
+
+.content-header h1 {
+  font-size: 18px;
+}
+
+.media-type {
+  width: 120px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 16px;
+  padding-top: 2px;
 }
 </style>

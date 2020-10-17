@@ -28,6 +28,7 @@ header {
   padding: 8px;
   height: 62px;
   align-items: center;
+  margin-bottom: 16px;
 }
 
 header a {
@@ -43,9 +44,11 @@ header a img {
 
 .info {
   display: flex;
-  margin-right: 46px;
-  justify-content: center;
-  text-align: center;
+  padding-left: 16px;
+  margin-right: 0;
+  justify-content: space-between;
+  align-items: center;
   flex: 1;
+  font-size: 20px;
 }
 </style>

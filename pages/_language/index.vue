@@ -12,9 +12,7 @@
           :to="`${$route.params.language}/${category.id}/1`"
           class="cat"
         >
-          <div class="cat-icon">
-            <img :src="require(`~/assets/icons/${category.id}.svg`)" />
-          </div>
+          <category-icon class="cat-icon" :category-id="category.id" />
         </category-button>
       </template>
 
