@@ -24,9 +24,14 @@ export default {
 
 <style scoped>
 header {
+  margin: 0 -20px 0 -20px;
+  padding: 0 0 0 20px;
   display: flex;
   height: 62px;
   align-items: center;
+  background-image: url('~assets/header-bg-decoration.png');
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 header a {

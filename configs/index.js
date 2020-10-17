@@ -47,6 +47,7 @@ export const i18n = {
     society: 'jamakulu',
     'best-practice': 'kɛwaleɲumanw',
     innovation: 'kokuraw dilanni',
+    information: 'kunnafoniw',
     audio: {
       welcome: '/media/dyu/Aw dansè.mp3',
       agricolture: '/media/dyu/Kɛnyɛrɛye baaraw.mp3',
@@ -62,6 +63,7 @@ export const i18n = {
     society: 'Niinsaal Zamaana',
     'best-practice': 'Tuum soõman',
     innovation: 'Tuum Paala',
+    information: 'Kibaya',
     audio: {
       welcome: '/media/mos/Ne-y waongo.mp3',
       agricolture: '/media/mos/Naafa Noug-touumdé.mp3',
@@ -77,6 +79,7 @@ export const i18n = {
     society: 'jamaa',
     'best-practice': 'golle lobbe',
     innovation: 'heydinetinegol',
+    information: 'Kibaru',
     audio: {
       welcome: '/media/ful/fôfô.mp3',
       agricolture: '/media/ful/Jaagagol.mp3',
