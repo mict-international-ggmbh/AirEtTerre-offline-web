@@ -109,21 +109,21 @@ export default {
 }
 
 .content-header {
-  min-height: 72px;
+  min-height: 92px;
   display: flex;
   text-align: left;
 }
 
 .content-header h1 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .media-type {
-  width: 120px;
+  width: 54px;
+  min-width: 54px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-left: 16px;
   padding-top: 2px;
 }
 </style>

@@ -25,7 +25,6 @@ export default {
 <style scoped>
 header {
   display: flex;
-  padding: 8px;
   height: 62px;
   align-items: center;
   margin-bottom: 16px;
@@ -33,7 +32,9 @@ header {
 
 header a {
   display: block;
-  width: 46px;
+  width: 26px;
+  margin-left: -6px;
+  margin-right: 18px;
   overflow: hidden;
 }
 header a img {
