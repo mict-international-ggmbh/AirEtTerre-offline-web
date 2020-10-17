@@ -1,0 +1,34 @@
+{
+  "content": [
+    {
+      "category": "agricolture",
+      "type": "audio",
+      "title": "Entreprenariat agricole, force et faiblesse des femmes de Bama",
+      "src": "Entreprenariat agricole, force et faiblesse des femmes de Bama.mp3"
+    },
+    {
+      "category": "best-practice",
+      "type": "audio",
+      "title": "Urea deep placement",
+      "src": "029 Urea deep placement - DIOULA.mp3"
+    },
+    {
+      "category": "innovation",
+      "type": "audio",
+      "title": "Drip irrigation for tomato",
+      "src": "007 Drip irrigation for tomato - DIOULA.mp3"
+    },
+    {
+      "category": "society",
+      "type": "audio",
+      "title": "Women in extension",
+      "src": "034 Women in extension - DIOULA.mp3"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Video recapitulatif finale",
+      "src": "Video recapitulatif finale copy.mp4"
+    }
+  ]
+}
