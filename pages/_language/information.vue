@@ -1,14 +1,19 @@
 <template>
   <div class="wrapper">
     <app-header :back-link="`/${$route.params.language}`">
-      {{ getlanguageByCode($route.params.language).displayName }}
+      <div class="header-category">
+        {{ i18n[$route.params.language].information }}
+      </div>
+      <div class="cat-icon">
+        <img :src="require(`~/assets/icons/information.svg`)" />
+      </div>
     </app-header>
     <div class="categories">Information TBD</div>
   </div>
 </template>
 
 <script>
-import { languages } from '@/configs'
+import { languages, i18n } from '@/configs'
 
 export default {
   name: 'Categories',
@@ -18,6 +23,10 @@ export default {
     valid = languages.find((language) => params.language === language.code)
     return valid
   },
+
+  data: () => ({
+    i18n
+  }),
 
   methods: {
     getlanguageByCode(code) {
