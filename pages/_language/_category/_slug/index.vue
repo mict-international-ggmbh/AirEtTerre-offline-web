@@ -146,6 +146,7 @@ export default {
 
 .content-header h1 {
   font-size: 18px;
+  flex: 1;
 }
 
 .media-type {
