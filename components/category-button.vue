@@ -74,7 +74,10 @@ export default {
 }
 
 a {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
   flex: 1;
   z-index: 1;
   font-size: 24px;

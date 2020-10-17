@@ -37,7 +37,9 @@ export default {
 }
 
 a {
-  display: block;
+  display: flex;
+  height: 100%;
+  align-items: center;
   flex: 1;
   font-size: 24px;
   line-height: 26px;
