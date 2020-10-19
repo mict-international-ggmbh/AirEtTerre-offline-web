@@ -35,28 +35,36 @@
       </template>
     </div>
     <div class="navigation">
-      <div class="nav prev">
+      <div class="nav prev" :class="{ disabled: !hasPrev }">
         <nuxt-link
-          tag="button"
-          :disabled="contentPosition <= 0"
+          v-if="hasNext"
           :to="`/${$route.params.language}/${$route.params.category}/${contentPosition}`"
         >
           <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
         </nuxt-link>
+        <img
+          v-else
+          class="icon"
+          :src="require(`~/assets/icons/chevron-left.svg`)"
+        />
       </div>
       <div class="position">
         {{ contentPosition + 1 }} / {{ contentLength }}
       </div>
-      <div class="nav next">
+      <div class="nav next" :class="{ disabled: !hasNext }">
         <nuxt-link
-          tag="button"
-          :disabled="contentPosition + 1 >= contentLength"
+          v-if="hasNext"
           :to="`/${$route.params.language}/${$route.params.category}/${
             contentPosition + 2
           }`"
         >
           <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
         </nuxt-link>
+        <img
+          v-else
+          class="icon"
+          :src="require(`~/assets/icons/chevron-left.svg`)"
+        />
       </div>
     </div>
   </div>
@@ -88,6 +96,16 @@ export default {
   data: () => ({
     i18n
   }),
+
+  computed: {
+    hasNext() {
+      return this.contentPosition + 1 < this.contentLength
+    },
+
+    hasPrev() {
+      return this.contentPosition > 0
+    }
+  },
 
   validate({ params }) {
     let valid = false
@@ -134,7 +152,7 @@ export default {
   transform: rotate(180deg);
 }
 
-.nav button:disabled {
+.nav.disabled img {
   opacity: 0.2;
 }
 
