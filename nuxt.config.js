@@ -62,6 +62,7 @@ export default {
       modulePathPrefix: '/workbox/'
     },
     preCaching: ['index.html', '/workbox/workbox-sw.js'],
-    runtimeCaching: []
+    runtimeCaching: [],
+    cachingExtensions: '@/plugins/workbox-range-request.js'
   }
 }
