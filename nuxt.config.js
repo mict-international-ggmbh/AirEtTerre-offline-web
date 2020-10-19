@@ -54,7 +54,6 @@ export default {
   },
 
   workbox: {
-    globPatterns: ['**/*.{js,css,html,json,jpg,png,svg}'],
     workboxURL: '/workbox/workbox-sw.js',
     navigateFallback: '/404.html',
     publicPath: '/',
