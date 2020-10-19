@@ -8,9 +8,7 @@
       @pause="onPause"
       @ended="onEnd"
     >
-      <video>
-        <source :src="src" type="video/mp4" size="100%" />
-      </video>
+      <video />
     </vue-plyr>
   </div>
 </template>
@@ -55,6 +53,15 @@ export default {
   mounted() {
     this.$nextTick(function () {
       this.player = this.$refs.plyr.player
+      this.player.source = {
+        type: 'video',
+        sources: [
+          {
+            src: this.src,
+            type: 'video/mp4'
+          }
+        ]
+      }
     })
   },
 

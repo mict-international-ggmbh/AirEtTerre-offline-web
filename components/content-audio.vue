@@ -25,9 +25,7 @@
       @pause="onPause"
       @ended="onEnd"
     >
-      <audio>
-        <source :src="src" type="audio/mp3" />
-      </audio>
+      <audio />
     </vue-plyr>
   </div>
 </template>
@@ -49,7 +47,8 @@ export default {
     options: {
       controls: ['progress'],
       loadSprite: false,
-      iconUrl: '/plyr.svg'
+      iconUrl: '/plyr.svg',
+      blankVideo: '/blank.mp4'
     },
     player: undefined,
     playing: false,
@@ -71,6 +70,15 @@ export default {
   mounted() {
     this.$nextTick(function () {
       this.player = this.$refs.plyr.player
+      this.player.source = {
+        type: 'audio',
+        sources: [
+          {
+            src: this.src,
+            type: 'audio/mp3'
+          }
+        ]
+      }
     })
   },
 

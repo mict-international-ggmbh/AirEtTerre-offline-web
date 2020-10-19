@@ -13,7 +13,8 @@ export default {
     options: {
       controls: [],
       loadSprite: false,
-      iconUrl: '/plyr.svg'
+      iconUrl: '/plyr.svg',
+      blankVideo: '/blank.mp4'
     }
   }),
 
