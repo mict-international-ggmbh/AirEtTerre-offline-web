@@ -37,7 +37,7 @@
     <div class="navigation">
       <div class="nav prev" :class="{ disabled: !hasPrev }">
         <nuxt-link
-          v-if="hasNext"
+          v-if="hasPrev"
           :to="`/${$route.params.language}/${$route.params.category}/${contentPosition}`"
         >
           <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
