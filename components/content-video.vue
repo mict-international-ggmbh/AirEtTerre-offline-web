@@ -32,7 +32,8 @@ export default {
     options: {
       // controls: ['progress'],
       loadSprite: false,
-      iconUrl: '/plyr.svg'
+      iconUrl: '/plyr.svg',
+      blankVideo: '/blank.mp4'
     },
     player: undefined,
     playing: false,
