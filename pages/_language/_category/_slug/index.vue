@@ -127,7 +127,7 @@ export default {
 
 <style scoped>
 .content {
-  padding-top: 20px;
+  padding-top: 82px;
 }
 
 .navigation {

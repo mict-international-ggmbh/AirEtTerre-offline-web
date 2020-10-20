@@ -24,14 +24,20 @@ export default {
 
 <style scoped>
 header {
-  margin: 0 -20px 0 -20px;
-  padding: 0 0 0 20px;
+  position: fixed;
   display: flex;
+  width: 100%;
   height: 62px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0 0 0 20px;
   align-items: center;
   background-image: url('~assets/header-bg-decoration.png');
   background-repeat: no-repeat;
   background-position: right top;
+  background-color: #fff;
+  z-index: 10;
 }
 
 header a {

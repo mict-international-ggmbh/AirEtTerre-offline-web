@@ -8,7 +8,7 @@
         <img :src="require(`~/assets/icons/information.svg`)" />
       </div>
     </app-header>
-    <div class="categories">Information TBD</div>
+    <div class="information">Information TBD</div>
   </div>
 </template>
 
@@ -39,5 +39,9 @@ export default {
 <style scoped>
 .dark {
   stroke: black;
+}
+
+.information {
+  padding-top: 82px;
 }
 </style>
