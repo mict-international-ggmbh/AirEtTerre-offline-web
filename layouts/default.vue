@@ -53,7 +53,6 @@ body {
   min-height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 64px;
 }
 
 @media (min-width: 640px) {
