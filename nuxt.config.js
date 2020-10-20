@@ -55,13 +55,15 @@ export default {
 
   workbox: {
     workboxURL: '/workbox/workbox-sw.js',
-    navigateFallback: '/404.html',
-    publicPath: '/',
+    // navigateFallback: '/404.html',
+    // publicPath: '/',
     config: {
       modulePathPrefix: '/workbox/'
-    },
-    preCaching: ['index.html', '/workbox/workbox-sw.js'],
-    runtimeCaching: [],
-    cachingExtensions: '@/plugins/workbox-range-request.js'
+    }
+    // preCaching: ['index.html', '/workbox/workbox-sw.js'],
+    // runtimeCaching: [],
+    // cachingExtensions: '@/plugins/workbox-range-request.js',
+    // cacheAssets: true,
+    // offline: true
   }
 }
