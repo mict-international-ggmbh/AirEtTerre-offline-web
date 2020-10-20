@@ -52,16 +52,13 @@ export default {
   async asyncData({ $content, params }) {
     const { content } = await $content(`${params.language}/content`).fetch()
 
-    console.log('Content', content)
     const availableCategories = content.reduce((accumulator, currentValue) => {
-      console.log(accumulator, !accumulator.includes(currentValue.category))
       const categories = !accumulator.includes(currentValue.category)
         ? [...accumulator, currentValue.category]
         : accumulator
 
       return categories
     }, [])
-    console.log('availableCategories', availableCategories)
     return {
       availableCategories,
       content

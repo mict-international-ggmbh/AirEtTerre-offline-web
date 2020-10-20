@@ -80,12 +80,10 @@ export default {
     let { content } = await $content(`${params.language}/content`).fetch()
 
     const contentPosition = params.slug - 1
-    console.log('content-item', contentPosition)
 
     content = content.filter((item) => item.category === params.category)
     const contentLength = content.length
 
-    console.log('Content', content)
     return {
       content: content[contentPosition],
       contentLength,
@@ -109,7 +107,7 @@ export default {
 
   validate({ params }) {
     let valid = false
-    console.log('params', params)
+
     valid = languages.find((language) => params.language === language.code)
     if (!valid) return valid
     valid = categories.find((category) => params.category === category.id)
