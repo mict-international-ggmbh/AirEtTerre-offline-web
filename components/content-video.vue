@@ -4,11 +4,12 @@
       ref="plyr"
       :options="options"
       :emit="['playing', 'pause', 'ended']"
+      preload="none"
       @playing="onPlay"
       @pause="onPause"
       @ended="onEnd"
     >
-      <video />
+      <video preload="none" />
     </vue-plyr>
   </div>
 </template>

@@ -21,11 +21,12 @@
       ref="plyr"
       :options="options"
       :emit="['playing', 'pause', 'ended']"
+      preload="none"
       @playing="onPlay"
       @pause="onPause"
       @ended="onEnd"
     >
-      <audio />
+      <audio preload="none" />
     </vue-plyr>
   </div>
 </template>
