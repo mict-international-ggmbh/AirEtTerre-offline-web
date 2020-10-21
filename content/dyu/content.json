@@ -6,6 +6,8 @@
       "title": "Entreprenariat agricole, force et faiblesse des femmes de Bama",
       "src": "/media/dyu/entrepreneurship/Entreprenariat agricole, force et faiblesse des femmes de Bama.mp3"
     },
+
+
     {
       "category": "best-practice",
       "type": "audio",
@@ -13,16 +15,143 @@
       "src": "/media/dyu/good practices/029 Urea deep placement - DIOULA.mp3"
     },
     {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Urea deep placement",
+      "src": "/media/dyu/good practices/029 Urea deep placement - DIOULA.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "audio",
+      "title": "Contour bunds",
+      "src": "/media/dyu/good practices/033 Contour bunds - DIOULA.mp3"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Contour bunds",
+      "src": "/media/dyu/good practices/033 Contour bunds - DIOULA.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "audio",
+      "title": "Growing cassava on poor soils",
+      "src": "/media/dyu/good practices/060 Growing cassava on poor soils - DIOULA.mp3"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Growing cassava on poor soils",
+      "src": "/media/dyu/good practices/060 Growing cassava on poor soils - DIOULA.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "audio",
+      "title": "Comment reussir le compostage",
+      "src": "/media/dyu/good practices/comment reussir le compostage-.mp3"
+    },
+    {
+      "category": "best-practice",
+      "type": "audio",
+      "title": "Compost et rendement agricole ok",
+      "src": "/media/dyu/good practices/Compost et rendement agricole ok.mp3"
+    },
+    {
+      "category": "best-practice",
+      "type": "audio",
+      "title": "Compostage et les engrains _complématarité et différance",
+      "src": "/media/dyu/good practices/Compostage et les engrains _complématarité et différance.mp3"
+    },
+    {
+      "category": "best-practice",
+      "type": "audio",
+      "title": "Magazine TAT: Utilisation adéquate des engrais",
+      "src": "/media/dyu/good practices/Magazine TAT_utilisation adéquate des engrais~1.mp3"
+    },
+    {
+      "category": "best-practice",
+      "type": "audio",
+      "title": "Précautions et compostage",
+      "src": "/media/dyu/good practices/Précautions et compostage.mp3"
+    },
+    {
+      "category": "best-practice",
+      "type": "audio",
+      "title": "Récolte sélective de mangues",
+      "src": "/media/dyu/good practices/Récolte sélective de mangues .mp3"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Récolte sélective de mangues",
+      "src": "/media/dyu/good practices/Récolte sélective de mangues .mp4"
+    },
+
+
+
+
+    {
       "category": "innovation",
       "type": "audio",
       "title": "Drip irrigation for tomato",
       "src": "/media/dyu/innovation/007 Drip irrigation for tomato - DIOULA.mp3"
     },
     {
+      "category": "innovation",
+      "type": "video",
+      "title": "Drip irrigation for tomato",
+      "src": "/media/dyu/innovation/007 Drip irrigation for tomato - DIOULA.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "audio",
+      "title": "Connaissance du bokashi",
+      "src": "/media/dyu/innovation/Connaissance du bokashi.mp3"
+    },
+    {
+      "category": "innovation",
+      "type": "audio",
+      "title": "Dioula",
+      "src": "/media/dyu/innovation/Dioula.mp3"
+    },
+
+
+
+    {
       "category": "society",
       "type": "audio",
       "title": "Women in extension",
       "src": "/media/dyu/society/034 Women in extension - DIOULA.mp3"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Women in extension",
+      "src": "/media/dyu/society/034 Women in extension - DIOULA.mp4"
+    },
+    {
+      "category": "society",
+      "type": "audio",
+      "title": "Accès aux terres cultivables des femmes",
+      "src": "/media/dyu/society/Accès aux terres cultivables des femmes.MP3"
+    },
+    {
+      "category": "society",
+      "type": "audio",
+      "title": "Emission avec l'Union des groupements des etuveuses de Bama",
+      "src": "/media/dyu/society/Emission avec l_Union des groupements des etuveuses de Bama.MP3"
+    },
+    {
+      "category": "society",
+      "type": "audio",
+      "title": "Entreprenariat agricole, force et faiblesse des femmes de Bama",
+      "src": "/media/dyu/society/Entreprenariat agricole, force et faiblesse des femmes de Bama.mp3"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Dioula",
+      "src": "/media/dyu/society/Video dioula.mp4"
     },
     {
       "category": "society",
