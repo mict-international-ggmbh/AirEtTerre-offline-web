@@ -15,23 +15,16 @@
           {{ content.title }}
         </h1>
         <div class="download">
-          <a
-            :href="`/media/${$route.params.language}/${$route.params.category}/${content.src}`"
-            download
-          >
+          <a :href="`${content.src}`" download>
             <img :src="require(`~/assets/icons/download.svg`)" />
           </a>
         </div>
       </div>
       <template v-if="content.type === 'audio'">
-        <content-audio
-          :src="`/media/${$route.params.language}/${$route.params.category}/${content.src}`"
-        />
+        <content-audio :src="`${content.src}`" />
       </template>
       <template v-if="content.type === 'video'">
-        <content-video
-          :src="`/media/${$route.params.language}/${$route.params.category}/${content.src}`"
-        />
+        <content-video :src="`${content.src}`" />
       </template>
     </div>
     <div class="navigation">
