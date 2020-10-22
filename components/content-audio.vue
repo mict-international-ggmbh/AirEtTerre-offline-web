@@ -3,17 +3,17 @@
     <div v-if="player" class="audio-controls">
       <img
         v-if="!playing && !ended"
-        src="~/assets/icons/content-audio-play.svg"
+        src="~/assets/icons/content-audio-play.svg?data"
         @click="play"
       />
       <img
         v-if="playing"
-        src="~/assets/icons/content-audio-pause.svg"
+        src="~/assets/icons/content-audio-pause.svg?data"
         @click="pause"
       />
       <img
         v-if="!playing && ended"
-        src="~/assets/icons/content-audio-replay.svg"
+        src="~/assets/icons/content-audio-replay.svg?data"
         @click="replay"
       />
     </div>
@@ -153,7 +153,7 @@ export default {
   background: transparent;
   border: 4px solid #114778;
 
-  background-image: url('~assets/icons/audio-seek-handle.svg');
+  background-image: url('~assets/icons/audio-seek-handle.svg?data');
   background-repeat: no-repeat;
   background-size: cover;
 }

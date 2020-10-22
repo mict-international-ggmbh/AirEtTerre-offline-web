@@ -9,14 +9,14 @@
     <div class="content">
       <div class="content-header">
         <div class="media-type">
-          <img :src="require(`~/assets/icons/${content.type}.svg`)" />
+          <img :src="require(`~/assets/icons/${content.type}.svg?data`)" />
         </div>
         <h1>
           {{ content.title }}
         </h1>
         <div class="download">
           <a :href="`${content.src}`" download>
-            <img :src="require(`~/assets/icons/download.svg`)" />
+            <img :src="require(`~/assets/icons/download.svg?data`)" />
           </a>
         </div>
       </div>
@@ -33,12 +33,15 @@
           v-if="hasPrev"
           :to="`/${$route.params.language}/${$route.params.category}/${contentPosition}`"
         >
-          <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
+          <img
+            class="icon"
+            :src="require(`~/assets/icons/chevron-left.svg?data`)"
+          />
         </nuxt-link>
         <img
           v-else
           class="icon"
-          :src="require(`~/assets/icons/chevron-left.svg`)"
+          :src="require(`~/assets/icons/chevron-left.svg?data`)"
         />
       </div>
       <div class="position">
@@ -51,12 +54,15 @@
             contentPosition + 2
           }`"
         >
-          <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
+          <img
+            class="icon"
+            :src="require(`~/assets/icons/chevron-left.svg?data`)"
+          />
         </nuxt-link>
         <img
           v-else
           class="icon"
-          :src="require(`~/assets/icons/chevron-left.svg`)"
+          :src="require(`~/assets/icons/chevron-left.svg?data`)"
         />
       </div>
     </div>

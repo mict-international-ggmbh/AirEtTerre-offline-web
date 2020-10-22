@@ -87,7 +87,7 @@ a {
   line-height: 26px;
   padding-left: 22px;
   /* identical to box height, or 108% */
-  background-image: url('~assets/icons/chevron-right.svg');
+  background-image: url('~assets/icons/chevron-right.svg?data');
   background-repeat: no-repeat;
   background-position: center right 24px;
   text-align: left;
