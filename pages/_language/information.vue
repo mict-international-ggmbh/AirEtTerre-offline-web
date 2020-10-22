@@ -8,7 +8,9 @@
         <img :src="require(`~/assets/icons/information.svg`)" />
       </div>
     </app-header>
-    <div class="information">Information TBD</div>
+    <div class="information">
+      <nuxt-content :document="page" />
+    </div>
   </div>
 </template>
 
@@ -22,6 +24,13 @@ export default {
     let valid = false
     valid = languages.find((language) => params.language === language.code)
     return valid
+  },
+
+  async asyncData({ $content, params, error }) {
+    const page = await $content('information').fetch()
+    return {
+      page
+    }
   },
 
   data: () => ({
@@ -43,5 +52,6 @@ export default {
 
 .information {
   padding-top: 82px;
+  text-align: left;
 }
 </style>

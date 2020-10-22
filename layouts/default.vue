@@ -60,4 +60,14 @@ body {
     max-width: 640px;
   }
 }
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+p:not(:last-child) {
+  margin-bottom: 16px;
+}
 </style>
