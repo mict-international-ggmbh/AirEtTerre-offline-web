@@ -4,13 +4,13 @@
       "category": "best-practice",
       "type": "audio",
       "title": "Contour bunds - Pulaar",
-      "src": "static/media/ful/good practices/033 Contour bunds - Pulaar .mp3"
+      "src": "/media/ful/good practices/033 Contour bunds - Pulaar .mp3"
     },
     {
       "category": "best-practice",
       "type": "video",
       "title": "Contour bunds - Pulaar",
-      "src": "static/media/ful/good practices/033 Contour bunds - Pulaar .mp4"
+      "src": "/media/ful/good practices/033 Contour bunds - Pulaar .mp4"
     },
 
 
@@ -18,25 +18,25 @@
       "category": "innovation",
       "type": "audio",
       "title": "Drip irrigation for tomato - Pulaar",
-      "src": "static/media/ful/innovation/007 Drip irrigation for tomato -Pulaar .mp3"
+      "src": "/media/ful/innovation/007 Drip irrigation for tomato -Pulaar .mp3"
     },
     {
       "category": "innovation",
       "type": "video",
       "title": "Drip irrigation for tomato - Pulaar",
-      "src": "static/media/ful/innovation/007 Drip irrigation for tomato -Pulaar .mp4"
+      "src": "/media/ful/innovation/007 Drip irrigation for tomato -Pulaar .mp4"
     },
     {
       "category": "innovation",
       "type": "audio",
       "title": "Fulfuldé",
-      "src": "static/media/ful/innovation/Fulfuldé.mp3"
+      "src": "/media/ful/innovation/Fulfuldé.mp3"
     },
     {
       "category": "innovation",
       "type": "video",
       "title": "Fulfuldé",
-      "src": "static/media/ful/innovation/Video fulfuldé.mp4"
+      "src": "/media/ful/innovation/Video fulfuldé.mp4"
     }
   ]
 }
