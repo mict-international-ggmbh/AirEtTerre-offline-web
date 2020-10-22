@@ -49,8 +49,8 @@ export default {
     options: {
       controls: ['progress'],
       loadSprite: false,
-      iconUrl: require(`~/assets/plyr.svg`), // '/plyr.svg',
-      blankVideo: '/blank.mp4'
+      iconUrl: require(`~/assets/plyr.svg`),
+      blankVideo: require(`~/assets/blank.mp4`)
     },
     player: undefined,
     playing: false,

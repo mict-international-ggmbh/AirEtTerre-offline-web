@@ -33,7 +33,7 @@ export default {
       // controls: ['progress'],
       loadSprite: false,
       iconUrl: require(`~/assets/plyr.svg`),
-      blankVideo: '/blank.mp4'
+      blankVideo: require(`~/assets/blank.mp4`)
     },
     player: undefined,
     playing: false,

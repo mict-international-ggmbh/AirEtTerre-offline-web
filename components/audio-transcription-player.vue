@@ -14,7 +14,7 @@ export default {
       controls: [],
       loadSprite: false,
       iconUrl: require(`~/assets/plyr.svg`),
-      blankVideo: '/blank.mp4'
+      blankVideo: require(`~/assets/blank.mp4`)
     }
   }),
 
