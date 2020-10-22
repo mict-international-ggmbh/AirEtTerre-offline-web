@@ -9,7 +9,7 @@
           v-if="availableCategories.includes(category.id)"
           :key="category.id"
           :image="`${category.id}-button-bg`"
-          :to="`${$route.params.language}/${category.id}/1`"
+          :to="`/${$route.params.language}/${category.id}/1`"
           class="cat"
           @play="
             $refs.player.play(i18n[$route.params.language].audio[category.id])

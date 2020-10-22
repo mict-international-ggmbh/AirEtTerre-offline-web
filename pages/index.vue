@@ -5,7 +5,7 @@
       <language-button
         v-for="language in languages"
         :key="language.slug"
-        :to="`${language.code}`"
+        :to="`/${language.code}`"
         class="lang"
         @play="$refs.player.play(i18n[language.code].audio.welcome)"
       >
