@@ -69,6 +69,7 @@ export default {
   },
 
   mounted() {
+    document.addEventListener('beforeunload', this.cleanup)
     this.$nextTick(function () {
       this.player = this.$refs.plyr.player
       this.player.source = {
@@ -107,6 +108,14 @@ export default {
     },
     onEnd() {
       this.ended = true
+    },
+    cleanup(event) {
+      console.log('unload')
+      if (window.stop !== undefined) {
+        window.stop()
+      } else if (document.execCommand !== undefined) {
+        document.execCommand('Stop', false)
+      }
     }
   }
 }
