@@ -23,6 +23,40 @@
       "type": "video",
       "title": "Zaï planting pits",
       "src": "/media/mos/good practices/043 SLM06 Zaï planting pits - MOORE.mp4"
+    },
+
+
+    {
+      "category": "innovation",
+      "type": "audio",
+      "title": "Drip irrigation for tomato",
+      "src": "static/media/mos/innovation/007 Drip irrigation for tomato - MOORE.mp3"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Drip irrigation for tomato",
+      "src": "static/media/mos/innovation/007 Drip irrigation for tomato - MOORE.mp4"
+    },
+
+
+    {
+      "category": "society",
+      "type": "audio",
+      "title": "Mooré",
+      "src": "static/media/mos/society/Mooré.mp3"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "mooré",
+      "src": "static/media/mos/society/Video mooré.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Recapitulatif",
+      "src": "static/media/mos/society/Video recapitulatif finale.mp4"
     }
   ]
 }
