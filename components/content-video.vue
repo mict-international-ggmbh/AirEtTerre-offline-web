@@ -1,6 +1,7 @@
 <template>
   <div class="video">
     <vue-plyr
+      v-if="src"
       ref="plyr"
       :options="options"
       :emit="['playing', 'pause', 'ended']"
@@ -9,7 +10,7 @@
       @pause="onPause"
       @ended="onEnd"
     >
-      <video preload="none" />
+      <video preload="none" :src="src" />
     </vue-plyr>
   </div>
 </template>
@@ -31,7 +32,7 @@ export default {
     options: {
       // controls: ['progress'],
       loadSprite: false,
-      iconUrl: '/plyr.svg',
+      iconUrl: require(`~/assets/plyr.svg`),
       blankVideo: '/blank.mp4'
     },
     player: undefined,
@@ -52,19 +53,21 @@ export default {
   },
 
   mounted() {
-    document.addEventListener('beforeunload', this.cleanup)
     this.$nextTick(function () {
       this.player = this.$refs.plyr.player
-      this.player.source = {
-        type: 'video',
-        sources: [
-          {
-            src: this.src,
-            type: 'video/mp4'
-          }
-        ]
-      }
     })
+  },
+
+  beforeDestroy() {
+    this.player.pause()
+    this.player.media.src = ''
+    this.player.destroy()
+
+    if (window.stop !== undefined) {
+      window.stop()
+    } else if (document.execCommand !== undefined) {
+      document.execCommand('Stop', false)
+    }
   },
 
   methods: {
@@ -80,14 +83,6 @@ export default {
     },
     onEnd() {
       this.ended = true
-    },
-    cleanup(event) {
-      console.log('unload')
-      if (window.stop !== undefined) {
-        window.stop()
-      } else if (document.execCommand !== undefined) {
-        document.execCommand('Stop', false)
-      }
     }
   }
 }

@@ -13,7 +13,7 @@ export default {
     options: {
       controls: [],
       loadSprite: false,
-      iconUrl: '/plyr.svg',
+      iconUrl: require(`~/assets/plyr.svg`),
       blankVideo: '/blank.mp4'
     }
   }),
@@ -22,6 +22,17 @@ export default {
     this.$nextTick(function () {
       this.player = this.$refs.plyr.player
     })
+  },
+
+  beforeDestroy() {
+    this.player.pause()
+    this.player.media.src = ''
+    this.player.destroy()
+    if (window.stop !== undefined) {
+      window.stop()
+    } else if (document.execCommand !== undefined) {
+      document.execCommand('Stop', false)
+    }
   },
 
   methods: {
