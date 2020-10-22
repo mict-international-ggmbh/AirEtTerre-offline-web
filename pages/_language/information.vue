@@ -10,6 +10,7 @@
     </app-header>
     <div class="information">
       <nuxt-content :document="page" />
+      <app-version class="version" />
     </div>
   </div>
 </template>
@@ -53,5 +54,10 @@ export default {
 .information {
   padding-top: 82px;
   text-align: left;
+}
+
+.version {
+  font-size: 14px;
+  text-align: right;
 }
 </style>

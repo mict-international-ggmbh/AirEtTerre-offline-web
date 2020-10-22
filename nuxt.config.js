@@ -1,3 +1,5 @@
+const appVersion = require('./package.json').version
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -23,6 +25,10 @@ export default {
   components: true,
 
   loading: '~/components/loading.vue',
+
+  env: {
+    version: appVersion
+  },
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
