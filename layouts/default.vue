@@ -38,10 +38,18 @@ body {
   margin: 0;
 }
 
+[id='__nuxt'],
+[id='__layout'],
+.container,
+.page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .container {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
   margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -50,11 +58,8 @@ body {
 
 .page {
   width: 100%;
-  min-height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 @media (min-width: 640px) {
