@@ -215,8 +215,8 @@ export default {
 }
 
 .nav-icon {
-  width: auto;
-  height: 48px;
   display: block;
+  min-width: 26px;
+  height: auto;
 }
 </style>

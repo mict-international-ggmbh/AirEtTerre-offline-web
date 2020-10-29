@@ -106,7 +106,6 @@ export default {
   background-image: url(/_nuxt/assets/audio-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
 }
 
 .plyr--full-ui.plyr--video .plyr__control--overlaid {
