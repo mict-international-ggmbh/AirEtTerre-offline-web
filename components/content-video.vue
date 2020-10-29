@@ -3,7 +3,6 @@
     <vue-plyr
       v-if="src"
       ref="plyr"
-      v-touch:swipe.prevent.stop="() => false"
       :options="options"
       :emit="['playing', 'pause', 'ended']"
       preload="none"
@@ -94,16 +93,11 @@ export default {
   display: flex;
   width: 100%;
   height: 278px;
-  background-image: url('~assets/audio-bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 .video > div {
   width: 100%;
 }
 
-.plyr audio,
 .plyr iframe,
 .plyr video {
   display: block;
@@ -112,11 +106,13 @@ export default {
   background-image: url(/_nuxt/assets/audio-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
 }
 
 .plyr--full-ui.plyr--video .plyr__control--overlaid {
   width: 106px;
   height: 106px;
+  margin-top: -22px;
   background: transparent;
 }
 
@@ -127,7 +123,7 @@ export default {
 .plyr--full-ui.plyr--video .plyr__control--overlaid::after {
   position: absolute;
   z-index: 1;
-  top: -22px;
+  top: 0;
   left: 0;
   width: 106px;
   height: 106px;
