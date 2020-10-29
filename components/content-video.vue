@@ -98,8 +98,8 @@ export default {
   width: 100%;
 }
 
-.plyr iframe,
-.plyr video {
+.video .plyr iframe,
+.video .plyr video {
   display: block;
   height: 100%;
   width: 100%;
@@ -108,18 +108,18 @@ export default {
   background-position: center center;
 }
 
-.plyr--full-ui.plyr--video .plyr__control--overlaid {
+.video .plyr--full-ui.plyr--video .plyr__control--overlaid {
   width: 106px;
   height: 106px;
   margin-top: -22px;
   background: transparent;
 }
 
-.plyr--full-ui.plyr--video .plyr__control--overlaid svg {
+.video .plyr--full-ui.plyr--video .plyr__control--overlaid svg {
   display: none;
 }
 
-.plyr--full-ui.plyr--video .plyr__control--overlaid::after {
+.video .plyr--full-ui.plyr--video .plyr__control--overlaid::after {
   position: absolute;
   z-index: 1;
   top: 0;
