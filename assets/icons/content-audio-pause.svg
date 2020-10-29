@@ -1,18 +1,1 @@
-<svg width="106" height="106" viewBox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d)">
-<path d="M53.166 92.1852C77.0936 92.1852 96.4999 72.8556 96.4999 49.0001C96.4999 25.1445 77.0936 5.81494 53.166 5.81494C29.2383 5.81494 9.83203 25.1445 9.83203 49.0001C9.83203 72.8556 29.2383 92.1852 53.166 92.1852Z" fill="white" stroke="#424242" stroke-width="3"/>
-<rect x="38" y="28.0001" width="11" height="42" fill="#424242"/>
-<rect x="57" y="28.0001" width="11" height="42" fill="#424242"/>
-</g>
-<defs>
-<filter id="filter0_d" x="0.332031" y="0.314941" width="105.668" height="105.37" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="4"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-</filter>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="106" fill="none" xmlns:v="https://vecta.io/nano"><g filter="url(#A)"><path d="M53.166 92.185C77.094 92.185 96.5 72.856 96.5 49S77.094 5.815 53.166 5.815 9.832 25.145 9.832 49s19.406 43.185 43.334 43.185z" fill="#fff" stroke="#424242" stroke-width="3"/><path fill="#424242" d="M38 28h11v42H38z"/><path fill="#424242" d="M57 28h11v42H57z"/></g><defs><filter id="A" x=".332" y=".315" width="105.668" height="105.37" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="A"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="4"/><feGaussianBlur stdDeviation="4"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/><feBlend in2="A"/><feBlend in="SourceGraphic"/></filter></defs></svg>

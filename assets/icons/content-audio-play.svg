@@ -1,17 +1,1 @@
-<svg width="106" height="106" viewBox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d)">
-<path d="M52.834 91.8702C76.7616 91.8702 96.1679 72.5406 96.1679 48.6851C96.1679 24.8296 76.7616 5.5 52.834 5.5C28.9063 5.5 9.5 24.8296 9.5 48.6851C9.5 72.5406 28.9063 91.8702 52.834 91.8702Z" fill="white" stroke="#424242" stroke-width="3"/>
-<path d="M73.7508 49.5188L42.7937 28.6763V70.3614L73.7508 49.5188Z" fill="#424242"/>
-</g>
-<defs>
-<filter id="filter0_d" x="0" y="0" width="105.668" height="105.37" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="4"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-</filter>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="106" fill="none" xmlns:v="https://vecta.io/nano"><g filter="url(#A)"><path d="M52.834 91.87c23.928 0 43.334-19.33 43.334-43.185S76.762 5.5 52.834 5.5 9.5 24.83 9.5 48.685 28.906 91.87 52.834 91.87z" fill="#fff" stroke="#424242" stroke-width="3"/><path d="M73.75 49.52L42.794 28.676V70.36L73.75 49.52z" fill="#424242"/></g><defs><filter id="A" x="0" y="0" width="105.668" height="105.37" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="A"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="4"/><feGaussianBlur stdDeviation="4"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/><feBlend in2="A"/><feBlend in="SourceGraphic"/></filter></defs></svg>

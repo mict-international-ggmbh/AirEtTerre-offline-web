@@ -1,16 +1,16 @@
 <template>
   <div class="video">
     <vue-plyr
+      v-if="src"
       ref="plyr"
       :options="options"
       :emit="['playing', 'pause', 'ended']"
+      preload="none"
       @playing="onPlay"
       @pause="onPause"
       @ended="onEnd"
     >
-      <video>
-        <source :src="src" type="video/mp4" size="100%" />
-      </video>
+      <video preload="none" :src="src" />
     </vue-plyr>
   </div>
 </template>
@@ -32,7 +32,8 @@ export default {
     options: {
       // controls: ['progress'],
       loadSprite: false,
-      iconUrl: '/plyr.svg'
+      iconUrl: require(`~/assets/plyr.svg`),
+      blankVideo: require(`~/assets/blank.mp4`)
     },
     player: undefined,
     playing: false,
@@ -57,6 +58,18 @@ export default {
     })
   },
 
+  beforeDestroy() {
+    this.player.pause()
+    this.player.media.src = ''
+    this.player.destroy()
+
+    if (window.stop !== undefined) {
+      window.stop()
+    } else if (document.execCommand !== undefined) {
+      document.execCommand('Stop', false)
+    }
+  },
+
   methods: {
     ...mapMutations(['setCurrentlyPlaying']),
 
@@ -77,12 +90,45 @@ export default {
 
 <style>
 .video {
+  display: flex;
   width: 100%;
-  height: auto;
+  height: 278px;
+}
+.video > div {
+  width: 100%;
+}
+
+.video .plyr iframe,
+.video .plyr video {
+  display: block;
+  height: 100%;
+  width: 100%;
   background-image: url('~assets/audio-bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
-  color: #fff;
+}
+
+.video .plyr--full-ui.plyr--video .plyr__control--overlaid {
+  width: 106px;
+  height: 106px;
+  margin-top: -22px;
+  background: transparent;
+}
+
+.video .plyr--full-ui.plyr--video .plyr__control--overlaid svg {
+  display: none;
+}
+
+.video .plyr--full-ui.plyr--video .plyr__control--overlaid::after {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 106px;
+  height: 106px;
+  content: '';
+  background-image: url('~assets/icons/content-audio-play.svg?data');
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 </style>

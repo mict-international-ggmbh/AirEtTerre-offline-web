@@ -1,33 +1,35 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div class="audio">
     <div v-if="player" class="audio-controls">
       <img
         v-if="!playing && !ended"
-        src="~/assets/icons/content-audio-play.svg"
+        src="~/assets/icons/content-audio-play.svg?data"
         @click="play"
       />
       <img
         v-if="playing"
-        src="~/assets/icons/content-audio-pause.svg"
+        src="~/assets/icons/content-audio-pause.svg?data"
         @click="pause"
       />
       <img
         v-if="!playing && ended"
-        src="~/assets/icons/content-audio-replay.svg"
+        src="~/assets/icons/content-audio-replay.svg?data"
         @click="replay"
       />
     </div>
     <vue-plyr
+      v-if="src"
       ref="plyr"
+      v-touch:swipe.prevent.stop="() => false"
       :options="options"
       :emit="['playing', 'pause', 'ended']"
+      preload="none"
       @playing="onPlay"
       @pause="onPause"
       @ended="onEnd"
     >
-      <audio>
-        <source :src="src" type="audio/mp3" />
-      </audio>
+      <audio preload="none" :src="src" />
     </vue-plyr>
   </div>
 </template>
@@ -49,7 +51,8 @@ export default {
     options: {
       controls: ['progress'],
       loadSprite: false,
-      iconUrl: '/plyr.svg'
+      iconUrl: require(`~/assets/plyr.svg`),
+      blankVideo: require(`~/assets/blank.mp4`)
     },
     player: undefined,
     playing: false,
@@ -72,6 +75,17 @@ export default {
     this.$nextTick(function () {
       this.player = this.$refs.plyr.player
     })
+  },
+
+  beforeDestroy() {
+    this.player.pause()
+    this.player.media.src = ''
+    this.player.destroy()
+    if (window.stop !== undefined) {
+      window.stop()
+    } else if (document.execCommand !== undefined) {
+      document.execCommand('Stop', false)
+    }
   },
 
   methods: {
@@ -124,7 +138,7 @@ export default {
 }
 
 .plyr--audio .plyr__controls {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .plyr--audio .plyr__controls input[type='range']::-webkit-slider-thumb {
@@ -144,7 +158,7 @@ export default {
   background: transparent;
   border: 4px solid #114778;
 
-  background-image: url('~assets/icons/audio-seek-handle.svg');
+  background-image: url('~assets/icons/audio-seek-handle.svg?data');
   background-repeat: no-repeat;
   background-size: cover;
 }

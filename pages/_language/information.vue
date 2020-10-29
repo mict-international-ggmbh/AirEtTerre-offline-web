@@ -1,14 +1,22 @@
 <template>
   <div class="wrapper">
     <app-header :back-link="`/${$route.params.language}`">
-      {{ getlanguageByCode($route.params.language).displayName }}
+      <div class="header-category">
+        {{ i18n[$route.params.language].information }}
+      </div>
+      <div class="cat-icon">
+        <img :src="require(`~/assets/icons/information.svg`)" />
+      </div>
     </app-header>
-    <div class="categories">Information TBD</div>
+    <div class="information">
+      <nuxt-content :document="page" />
+      <app-version class="version" />
+    </div>
   </div>
 </template>
 
 <script>
-import { languages } from '@/configs'
+import { languages, i18n } from '@/configs'
 
 export default {
   name: 'Categories',
@@ -18,6 +26,17 @@ export default {
     valid = languages.find((language) => params.language === language.code)
     return valid
   },
+
+  async asyncData({ $content, params, error }) {
+    const page = await $content('information').fetch()
+    return {
+      page
+    }
+  },
+
+  data: () => ({
+    i18n
+  }),
 
   methods: {
     getlanguageByCode(code) {
@@ -30,5 +49,15 @@ export default {
 <style scoped>
 .dark {
   stroke: black;
+}
+
+.information {
+  padding-top: 82px;
+  text-align: left;
+}
+
+.version {
+  font-size: 14px;
+  text-align: right;
 }
 </style>

@@ -4,25 +4,59 @@
       "category": "best-practice",
       "type": "audio",
       "title": "Contour bunds",
-      "src": "033 Contour bunds - MOORE.mp3"
+      "src": "/media/mos/good practices/033 Contour bunds - MOORE.mp3"
     },
     {
       "category": "best-practice",
       "type": "audio",
       "title": "Zaï planting pits",
-      "src": "043 SLM06 Zaï planting pits - MOORE.mp3"
+      "src": "/media/mos/good practices/043 SLM06 Zaï planting pits - MOORE.mp3"
     },
     {
       "category": "best-practice",
       "type": "video",
       "title": "Contour bunds",
-      "src": "033 Contour bunds - MOORE.mp4"
+      "src": "/media/mos/good practices/033 Contour bunds - MOORE.mp4"
     },
     {
       "category": "best-practice",
       "type": "video",
       "title": "Zaï planting pits",
-      "src": "043 SLM06 Zaï planting pits - MOORE.mp4"
+      "src": "/media/mos/good practices/043 SLM06 Zaï planting pits - MOORE.mp4"
+    },
+
+
+    {
+      "category": "innovation",
+      "type": "audio",
+      "title": "Drip irrigation for tomato",
+      "src": "/media/mos/innovation/007 Drip irrigation for tomato - MOORE.mp3"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Drip irrigation for tomato",
+      "src": "/media/mos/innovation/007 Drip irrigation for tomato - MOORE.mp4"
+    },
+
+
+    {
+      "category": "society",
+      "type": "audio",
+      "title": "Mooré",
+      "src": "/media/mos/society/Mooré.mp3"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "mooré",
+      "src": "/media/mos/society/Video mooré.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Recapitulatif",
+      "src": "/media/mos/society/Video recapitulatif finale.mp4"
     }
   ]
 }

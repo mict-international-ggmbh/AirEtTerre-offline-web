@@ -1,7 +1,7 @@
 <template>
   <header>
     <nuxt-link :to="backLink">
-      <img class="icon" :src="require(`~/assets/icons/chevron-left.svg`)" />
+      <icon-chevron-left />
     </nuxt-link>
     <div class="info">
       <slot />
@@ -10,8 +10,12 @@
 </template>
 
 <script>
+import IconChevronLeft from '~/assets/icons/chevron-left.svg?inline'
+
 export default {
   name: 'AppHeader',
+
+  components: { IconChevronLeft },
 
   props: {
     backLink: {
@@ -24,15 +28,27 @@ export default {
 
 <style scoped>
 header {
+  position: fixed;
   display: flex;
-  padding: 8px;
+  width: 100%;
   height: 62px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0 0 0 20px;
   align-items: center;
+  background-image: url('~assets/header-bg-decoration.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: #fff;
+  z-index: 10;
 }
 
 header a {
   display: block;
-  width: 46px;
+  width: 26px;
+  margin-left: -6px;
+  margin-right: 24px;
   overflow: hidden;
 }
 header a img {
@@ -43,9 +59,11 @@ header a img {
 
 .info {
   display: flex;
-  margin-right: 46px;
-  justify-content: center;
-  text-align: center;
+  padding-left: 16px;
+  margin-right: 0;
+  justify-content: space-between;
+  align-items: center;
   flex: 1;
+  font-size: 24px;
 }
 </style>

@@ -38,10 +38,18 @@ body {
   margin: 0;
 }
 
+[id='__nuxt'],
+[id='__layout'],
+.container,
+.page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .container {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
   margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -58,5 +66,15 @@ body {
   .container {
     max-width: 640px;
   }
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+p:not(:last-child) {
+  margin-bottom: 16px;
 }
 </style>

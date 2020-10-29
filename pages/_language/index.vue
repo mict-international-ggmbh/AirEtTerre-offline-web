@@ -9,12 +9,13 @@
           v-if="availableCategories.includes(category.id)"
           :key="category.id"
           :image="`${category.id}-button-bg`"
-          :to="`${$route.params.language}/${category.id}/1`"
+          :to="`/${$route.params.language}/${category.id}/1`"
           class="cat"
+          @play="
+            $refs.player.play(i18n[$route.params.language].audio[category.id])
+          "
         >
-          <div class="cat-icon">
-            <img :src="require(`~/assets/icons/${category.id}.svg`)" />
-          </div>
+          <category-icon class="cat-icon" :category-id="category.id" />
         </category-button>
       </template>
 
@@ -22,6 +23,9 @@
         image="information-button-bg"
         :to="`${$route.params.language}/information`"
         class="info"
+        @play="
+          $refs.player.play(i18n[$route.params.language].audio.information)
+        "
       >
         <img
           class="cat-icon"
@@ -29,11 +33,12 @@
         />
       </category-button>
     </div>
+    <audio-transcription-player ref="player" />
   </div>
 </template>
 
 <script>
-import { categories, languages } from '@/configs'
+import { categories, languages, i18n } from '@/configs'
 
 export default {
   name: 'Categories',
@@ -47,16 +52,13 @@ export default {
   async asyncData({ $content, params }) {
     const { content } = await $content(`${params.language}/content`).fetch()
 
-    console.log('Content', content)
     const availableCategories = content.reduce((accumulator, currentValue) => {
-      console.log(accumulator, !accumulator.includes(currentValue.category))
       const categories = !accumulator.includes(currentValue.category)
         ? [...accumulator, currentValue.category]
         : accumulator
 
       return categories
     }, [])
-    console.log('availableCategories', availableCategories)
     return {
       availableCategories,
       content
@@ -64,7 +66,8 @@ export default {
   },
 
   data: () => ({
-    categories
+    categories,
+    i18n
   }),
 
   methods: {
@@ -76,6 +79,12 @@ export default {
 </script>
 
 <style scoped>
+.categories {
+  margin: 0 -20px 0 -20px;
+  padding: 82px 20px 64px 20px;
+  background-color: #edfff1;
+}
+
 .cat {
   margin-bottom: 16px;
 }
