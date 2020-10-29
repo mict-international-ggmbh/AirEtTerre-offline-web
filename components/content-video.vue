@@ -3,6 +3,7 @@
     <vue-plyr
       v-if="src"
       ref="plyr"
+      v-touch:swipe.prevent.stop="() => false"
       :options="options"
       :emit="['playing', 'pause', 'ended']"
       preload="none"

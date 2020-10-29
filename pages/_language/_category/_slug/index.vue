@@ -1,12 +1,12 @@
 <template>
-  <div class="wrapper">
+  <div v-touch:swipe="swipeHandler" class="wrapper">
     <app-header class="header" :back-link="`/${$route.params.language}`">
       <div class="header-category">
         {{ i18n[$route.params.language][$route.params.category] }}
       </div>
       <category-icon class="cat-icon" :category-id="$route.params.category" />
     </app-header>
-    <div class="content">
+    <div class="content" :class="[`swipe-${swipeDir}`]">
       <div class="content-header">
         <div class="media-type">
           <img :src="require(`~/assets/icons/${content.type}.svg?data`)" />
@@ -31,6 +31,7 @@
       <div class="nav prev" :class="{ disabled: !hasPrev }">
         <nuxt-link
           v-if="hasPrev"
+          ref="prev"
           :to="`/${$route.params.language}/${$route.params.category}/${contentPosition}`"
         >
           <img
@@ -50,6 +51,7 @@
       <div class="nav next" :class="{ disabled: !hasNext }">
         <nuxt-link
           v-if="hasNext"
+          ref="next"
           :to="`/${$route.params.language}/${$route.params.category}/${
             contentPosition + 2
           }`"
@@ -91,7 +93,8 @@ export default {
   },
 
   data: () => ({
-    i18n
+    i18n,
+    swipeDir: undefined
   }),
 
   computed: {
@@ -117,14 +120,48 @@ export default {
   methods: {
     getlanguageByCode(code) {
       return languages.find((language) => code === language.code)
+    },
+
+    swipeHandler(direction) {
+      switch (direction) {
+        case 'right':
+          if (this.hasPrev) {
+            this.swipeDir = direction
+            setTimeout(() => {
+              this.$refs.prev.$el.click()
+            }, 200)
+          }
+          break
+        case 'left':
+          if (this.hasNext) {
+            this.swipeDir = direction
+            setTimeout(() => {
+              this.$refs.next.$el.click()
+            }, 200)
+          }
+          break
+      }
     }
   }
 }
 </script>
 
 <style scoped>
+.wrapper {
+  flex: 1;
+}
+
 .content {
   padding-top: 82px;
+  transition: all 0.1s ease-in;
+}
+.content.swipe-left {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+.content.swipe-right {
+  transform: translateX(200px);
+  opacity: 0;
 }
 
 .navigation {

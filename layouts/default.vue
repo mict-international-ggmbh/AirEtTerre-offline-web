@@ -53,6 +53,8 @@ body {
   min-height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 640px) {

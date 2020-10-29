@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div class="audio">
     <div v-if="player" class="audio-controls">
@@ -20,6 +21,7 @@
     <vue-plyr
       v-if="src"
       ref="plyr"
+      v-touch:swipe.prevent.stop="() => false"
       :options="options"
       :emit="['playing', 'pause', 'ended']"
       preload="none"
