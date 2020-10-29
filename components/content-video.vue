@@ -91,12 +91,49 @@ export default {
 
 <style>
 .video {
+  display: flex;
   width: 100%;
-  height: auto;
+  height: 278px;
   background-image: url('~assets/audio-bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  color: #fff;
+}
+.video > div {
+  width: 100%;
+}
+
+.plyr audio,
+.plyr iframe,
+.plyr video {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-image: url(/_nuxt/assets/audio-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.plyr--full-ui.plyr--video .plyr__control--overlaid {
+  width: 106px;
+  height: 106px;
+  background: transparent;
+}
+
+.plyr--full-ui.plyr--video .plyr__control--overlaid svg {
+  display: none;
+}
+
+.plyr--full-ui.plyr--video .plyr__control--overlaid::after {
+  position: absolute;
+  z-index: 1;
+  top: -22px;
+  left: 0;
+  width: 106px;
+  height: 106px;
+  content: '';
+  background-image: url('~assets/icons/content-audio-play.svg?data');
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 </style>
