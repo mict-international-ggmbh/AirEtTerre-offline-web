@@ -191,7 +191,7 @@ export default {
 }
 
 .content-header {
-  min-height: 92px;
+  min-height: 98px;
   display: flex;
   text-align: left;
 }
