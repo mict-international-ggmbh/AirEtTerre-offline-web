@@ -35,13 +35,13 @@
           :to="`/${$route.params.language}/${$route.params.category}/${contentPosition}`"
         >
           <img
-            class="icon"
+            class="icon nav-icon"
             :src="require(`~/assets/icons/chevron-left.svg?data`)"
           />
         </nuxt-link>
         <img
           v-else
-          class="icon"
+          class="icon nav-icon"
           :src="require(`~/assets/icons/chevron-left.svg?data`)"
         />
       </div>
@@ -57,13 +57,13 @@
           }`"
         >
           <img
-            class="icon"
+            class="icon nav-icon"
             :src="require(`~/assets/icons/chevron-left.svg?data`)"
           />
         </nuxt-link>
         <img
           v-else
-          class="icon"
+          class="icon nav-icon"
           :src="require(`~/assets/icons/chevron-left.svg?data`)"
         />
       </div>
@@ -178,10 +178,6 @@ export default {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.nav {
-  width: 24px;
-}
-
 .nav.next img {
   transform: rotate(180deg);
 }
@@ -216,5 +212,11 @@ export default {
   justify-content: flex-end;
   align-items: flex-start;
   padding-top: 2px;
+}
+
+.nav-icon {
+  width: auto;
+  height: 48px;
+  display: block;
 }
 </style>
