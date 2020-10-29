@@ -138,7 +138,7 @@ export default {
 }
 
 .plyr--audio .plyr__controls {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .plyr--audio .plyr__controls input[type='range']::-webkit-slider-thumb {
