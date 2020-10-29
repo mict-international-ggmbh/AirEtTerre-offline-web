@@ -103,7 +103,7 @@ export default {
   display: block;
   height: 100%;
   width: 100%;
-  background-image: url(/_nuxt/assets/audio-bg.jpg);
+  background-image: url('~assets/audio-bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
 }
