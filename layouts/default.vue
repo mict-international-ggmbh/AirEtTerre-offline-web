@@ -77,4 +77,15 @@ h1 {
 p:not(:last-child) {
   margin-bottom: 16px;
 }
+
+.page-enter-active,
+.loading-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms;
+}
+.page-enter,
+.loading-leave-to {
+  opacity: 0;
+}
 </style>
