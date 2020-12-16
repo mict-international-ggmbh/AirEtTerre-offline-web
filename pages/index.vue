@@ -32,6 +32,7 @@ export default {
   })
 }
 </script>
+
 <style scoped>
 .wrapper {
   min-height: 100vh;
@@ -64,7 +65,7 @@ header {
 }
 
 h1 {
-  margin-top: 100px;
+  margin-top: 140px;
   font-weight: 500;
   font-size: 44px;
   line-height: 31px;
