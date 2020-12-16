@@ -1,62 +1,67 @@
 {
   "content": [
     {
+      "category": "agricolture",
+      "type": "audio",
+      "title": "Assétou Koutou, une entrepreneuse du fourrage à bétail - TAT",
+      "src": "/media/mos/entrepreneurship/Assétou Koutou, une entrepreneuse du fourrage à bétail - TAT.mp3"
+    },
+    {
+      "category": "agricolture",
+      "type": "audio",
+      "title": "Portrait de Oumar Cissé, jeune agro-entrepreneur - TAT",
+      "src": "/media/mos/entrepreneurship/Les femmes de Lama dans la récolte du riz - TAT.mp3"
+    },
+
+
+
+    {
       "category": "best-practice",
       "type": "audio",
-      "title": "Contour bunds",
-      "src": "/media/mos/good practices/033 Contour bunds - MOORE.mp3"
+      "title": "Semence et nutrition - TAT",
+      "src": "/media/mos/good practices/Semence et nutrition - TAT.mp3"
     },
     {
       "category": "best-practice",
       "type": "audio",
-      "title": "Zaï planting pits",
-      "src": "/media/mos/good practices/043 SLM06 Zaï planting pits - MOORE.mp3"
+      "title": "Techniques de conservations des aliments pour bétails en saison sèche - TAT",
+      "src": "/media/mos/good practices/Techniques de conservations des aliments pour bétails en saison sèche - TAT.mp3"
     },
-    {
-      "category": "best-practice",
-      "type": "video",
-      "title": "Contour bunds",
-      "src": "/media/mos/good practices/033 Contour bunds - MOORE.mp4"
-    },
-    {
-      "category": "best-practice",
-      "type": "video",
-      "title": "Zaï planting pits",
-      "src": "/media/mos/good practices/043 SLM06 Zaï planting pits - MOORE.mp4"
-    },
+
 
 
     {
       "category": "innovation",
       "type": "audio",
-      "title": "Drip irrigation for tomato",
-      "src": "/media/mos/innovation/007 Drip irrigation for tomato - MOORE.mp3"
+      "title": "Techniques de conservations des aliments pour bétails en saison sèche - TAT",
+      "src": "/media/mos/innovation/Techniques de conservations des aliments pour bétails en saison sèche - TAT.mp3"
     },
+
+
+
     {
-      "category": "innovation",
+      "category": "society",
       "type": "video",
-      "title": "Drip irrigation for tomato",
-      "src": "/media/mos/innovation/007 Drip irrigation for tomato - MOORE.mp4"
+      "title": "Témoignages de champions_Championnes Terre - Financement - Formation _ GiZ",
+      "src": "/media/mos/society/Témoignages de champions_Championnes Terre - Financement - Formation _ GiZ.mp4"
     },
-
-
     {
       "category": "society",
       "type": "audio",
-      "title": "Mooré",
-      "src": "/media/mos/society/Mooré.mp3"
+      "title": "Comment éviter les pertes post-récolte - TAT",
+      "src": "/media/mos/society/Comment éviter les pertes post-récolte - TAT.mp3"
     },
     {
       "category": "society",
-      "type": "video",
-      "title": "mooré",
-      "src": "/media/mos/society/Video mooré.mp4"
+      "type": "audio",
+      "title": "Récoltes et saisons à venir quels liens - TAT",
+      "src": "/media/mos/society/Récoltes et saisons à venir quels liens - TAT.mp3"
     },
     {
       "category": "society",
-      "type": "video",
-      "title": "Recapitulatif",
-      "src": "/media/mos/society/Video recapitulatif finale.mp4"
+      "type": "audio",
+      "title": "Semence et nutrition - TAT",
+      "src": "/media/mos/society/Semence et nutrition - TAT.mp3"
     }
   ]
 }

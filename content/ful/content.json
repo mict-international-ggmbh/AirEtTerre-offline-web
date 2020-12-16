@@ -1,42 +1,60 @@
 {
   "content": [
     {
+      "category": "agricolture",
+      "type": "audio",
+      "title": "Les femme de Lama dans la récolte du riz - TAT",
+      "src": "/media/ful/entrepreneurship/Les femme de Lama dans la récolte du riz - TAT.mp3"
+    },
+    {
+      "category": "agricolture",
+      "type": "audio",
+      "title": "Portrait de Oumar Cissé, jeune agro-entrepreneur - TAT",
+      "src": "/media/ful/entrepreneurship/Portrait de Oumar Cissé, jeune agro-entrepreneur - TAT.mp3"
+    },
+
+
+
+    {
       "category": "best-practice",
       "type": "audio",
-      "title": "Contour bunds - Pulaar",
-      "src": "/media/ful/good practices/033 Contour bunds - Pulaar .mp3"
+      "title": "Fumure Organique - TAT",
+      "src": "/media/ful/good practices/Fumure Organique - TAT.mp3"
     },
     {
       "category": "best-practice",
-      "type": "video",
-      "title": "Contour bunds - Pulaar",
-      "src": "/media/ful/good practices/033 Contour bunds - Pulaar .mp4"
+      "type": "audio",
+      "title": "Les Bonnes pratiques pour avoir un environnement sain - TAT",
+      "src": "/media/ful/good practices/Les Bonnes pratiques pour avoir un environnement sain -TAT.mp3"
+    },
+
+
+
+    {
+      "category": "innovation",
+      "type": "audio",
+      "title": "Connaissance du Bokashi - TAT",
+      "src": "/media/ful/innovation/Connaissance du Bokashi - TAT.mp3"
+    },
+    {
+      "category": "innovation",
+      "type": "audio",
+      "title": "Système rizicole intensif - TAT",
+      "src": "/media/ful/innovation/Système rizicole intensif - TAT.mp3"
     },
 
 
     {
-      "category": "innovation",
+      "category": "society",
       "type": "audio",
-      "title": "Drip irrigation for tomato - Pulaar",
-      "src": "/media/ful/innovation/007 Drip irrigation for tomato -Pulaar .mp3"
+      "title": "Accès des femmes aux terres cultivables - TAT",
+      "src": "/media/ful/society/Accès des femmes aux terres cultivables - TAT.mp3"
     },
     {
-      "category": "innovation",
-      "type": "video",
-      "title": "Drip irrigation for tomato - Pulaar",
-      "src": "/media/ful/innovation/007 Drip irrigation for tomato -Pulaar .mp4"
-    },
-    {
-      "category": "innovation",
+      "category": "society",
       "type": "audio",
-      "title": "Fulfuldé",
-      "src": "/media/ful/innovation/Fulfuldé.mp3"
-    },
-    {
-      "category": "innovation",
-      "type": "video",
-      "title": "Fulfuldé",
-      "src": "/media/ful/innovation/Video fulfuldé.mp4"
+      "title": "Récoltes et saisons à venir, quels liens - TAT",
+      "src": "/media/ful/society/Récoltes et saisons à venir, quels liens - TAT.mp3"
     }
   ]
 }
