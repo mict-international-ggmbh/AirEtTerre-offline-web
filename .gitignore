@@ -93,3 +93,5 @@ sw.*
 *-dist.tar.gz
 
 static/media/
+
+._*

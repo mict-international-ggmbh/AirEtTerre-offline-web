@@ -32,6 +32,7 @@ export default {
   })
 }
 </script>
+
 <style scoped>
 .wrapper {
   min-height: 100vh;
@@ -48,7 +49,13 @@ header {
   min-height: 238px;
   margin-left: -20px;
   margin-right: -20px;
-  background-image: url('~assets/startpage-bg-1.jpg');
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url('~assets/startpage-bg-1.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -58,7 +65,7 @@ header {
 }
 
 h1 {
-  margin-top: 50px;
+  margin-top: 140px;
   font-weight: 500;
   font-size: 44px;
   line-height: 31px;
