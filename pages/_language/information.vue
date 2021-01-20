@@ -9,6 +9,7 @@
       </div>
     </app-header>
     <div class="information">
+      <content-audio :src="page.audio" />
       <nuxt-content :document="page" />
       <app-version class="version" />
     </div>
@@ -27,8 +28,8 @@ export default {
     return valid
   },
 
-  async asyncData({ $content, params, error }) {
-    const page = await $content('information').fetch()
+  async asyncData({ $content, params, error, route }) {
+    const page = await $content(`${route.params.language}/information`).fetch()
     return {
       page
     }

@@ -1,8 +1,11 @@
 ---
 title: Imprint
 description: Imprint infrmation.
+audio: /media/ful/Imprint fulfuldé.mp3
 ---
+
 # Imprint
+
 (according to §5 TMG)
 
 Media in Cooperation and Transition gGmbH
