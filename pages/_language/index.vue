@@ -27,10 +27,12 @@
           $refs.player.play(i18n[$route.params.language].audio.information)
         "
       >
-        <img
-          class="cat-icon"
-          :src="require(`~/assets/icons/information.svg`)"
-        />
+        <div class="cat-icon">
+          <img
+            style="width: 32px"
+            :src="require(`~/assets/icons/information.svg`)"
+          />
+        </div>
       </category-button>
     </div>
     <audio-transcription-player ref="player" />
