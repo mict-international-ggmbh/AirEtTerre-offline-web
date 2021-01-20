@@ -9,7 +9,7 @@
       </div>
     </app-header>
     <div class="information">
-      <content-audio :src="page.audio" />
+      <content-audio class="audio-wrapper" :src="page.audio" />
       <nuxt-content :document="page" />
       <app-version class="version" />
     </div>
@@ -55,6 +55,10 @@ export default {
 .information {
   padding-top: 82px;
   text-align: left;
+}
+
+.audio-wrapper {
+  margin-bottom: 48px;
 }
 
 .version {
