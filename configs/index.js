@@ -22,6 +22,14 @@ export const languages = [
     // ISO 639-2
     code: 'ful',
     iso: 'bf-FUL'
+  },
+  {
+    // https://en.wikipedia.org/wiki/Dagaare_language
+    displayName: 'Dagara',
+    altname: 'Dagaare',
+    // ISO 639-3
+    code: 'dgi',
+    iso: 'bf-DGI'
   }
 ]
 
@@ -87,6 +95,22 @@ export const i18n = {
       'best-practice': '/media/ful/Golle lobbe.mp3',
       innovation: '/media/ful/Heydinetinegol.mp3',
       information: '/media/ful/Kibaru.mp3'
+    }
+  },
+  dgi: {
+    welcome: 'Nɩ ceṅu',
+    agricolture: 'Bɔɓ',
+    society: 'Lãw',
+    'best-practice': 'ɩ vɩɛle',
+    innovation: ': Yã tɩɛrõ',
+    information: 'Yel mõɔlɩ',
+    audio: {
+      welcome: '/media/dgi/Dagara_Bienvenue.mp3',
+      agricolture: '/media/dgi/Dagara_Entrepreneuriat.mp3',
+      society: '/media/dgi/Dagara_société.mp3',
+      'best-practice': '/media/dgi/Dagara_Bonnes pratiques.mp3',
+      innovation: '/media/dgi/Dagara_Innovation.mp3',
+      information: '/media/dgi/undefined.mp3'
     }
   }
 }

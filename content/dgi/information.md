@@ -1,7 +1,7 @@
 ---
 title: Imprint
 description: Imprint information.
-audio: /media/dyu/Imprint Dioula.mp3
+audio: /media/dgi/Dagara_Imprint.mp3
 ---
 
 # Imprint

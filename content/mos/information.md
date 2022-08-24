@@ -1,6 +1,6 @@
 ---
 title: Imprint
-description: Imprint infrmation.
+description: Imprint information.
 audio: /media/mos/Imprint Mooré.mp3
 ---
 
