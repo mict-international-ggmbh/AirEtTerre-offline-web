@@ -1,0 +1,58 @@
+{
+  "content": [
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Technique de transformation de Manioc Fatoumata",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_Technique de transformation de Manioc Fatoumata TRAORE_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Technique de transformation des mangue 1ère Partie",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_Technique de transformation des mangue 1èrePartie_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Technique de transformation des mangue 2ème Partie",
+      "src": "/media/dgi/entrepreneurship/Entrepreuneriat_Technique de transformation des mangue 2èmePartie_1.mp4"
+    },
+
+
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Les differentes techniques de goutte à goutte",
+      "src": "/media/dgi/good practices/Bonnes pratiques_02 - Les differentes techniques de goutte à goutte Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Bonnes techniques pour l'entretien d'un verger d'anacardiers",
+      "src": "/media/dgi/good practices/Bonnes pratiques_Bonnes techniques pour l_entretien d_un verger d_anacardiers Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Les différentes étapes pour la réalisation d'un verger de mangues",
+      "src": "/media/dgi/good practices/Bonnes pratiques_les différentes étapes pour la réalisation d_un verger de mangues OUATTARA Minata_1.mp4"
+    },
+
+
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Les différentes varités de riz à faible consommation d'eau",
+      "src": "/media/dgi/innovation/Innovation_Les différentes varités de riz à faible consommation d_eau Dagara_1.mp4"
+    },
+
+
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Protection des berges",
+      "src": "static/media/dgi/society/Société - Protection des berges Dagara_1.mp4"
+    }
+  ]
+}

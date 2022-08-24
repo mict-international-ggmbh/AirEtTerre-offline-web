@@ -1,6 +1,6 @@
 ---
 title: Imprint
-description: Imprint infrmation.
+description: Imprint information.
 audio: /media/ful/Imprint fulfuldé.mp3
 ---
 
