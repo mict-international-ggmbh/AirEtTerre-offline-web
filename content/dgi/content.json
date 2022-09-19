@@ -271,7 +271,49 @@
       "category": "society",
       "type": "video",
       "title": "Protection des berges",
-      "src": "static/media/dgi/society/Société - Protection des berges Dagara_1.mp4"
+      "src": "/media/dgi/society/Société - Protection des berges Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Gestion de l_eau dans la plaine de Bama",
+      "src": "/media/dgi/society/Société_19 - Gestion de l_eau dans la plaine de Bama.Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Accompagnement des producteurs",
+      "src": "/media/dgi/society/Sociéte_23 - Accompagnement des producteurs. Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "L'accès des terres cultivables aux femmes. 1ème partie",
+      "src": "/media/dgi/society/Société_32 - L_accès des terres cultivables aux femmes.1ème partie.Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "L'accès des terres aux femmes. 2ème partie",
+      "src": "/media/dgi/society/Société_33 - L_accès des terres aux femmes 2èmepartie. Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes FBS. 1ère partie",
+      "src": "/media/dgi/society/Société_47 - Formateurs endogènes FBS.1ère partie. Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes FBS. 2ème partie",
+      "src": "/media/dgi/society/Société_48 - Formateurs endogènes FBS 2ème partie. Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateur endogène FBS 2",
+      "src": "/media/dgi/society/Société_49 - Formateur endogène FBS 2.Dagara_1.mp4"
     }
   ]
 }
