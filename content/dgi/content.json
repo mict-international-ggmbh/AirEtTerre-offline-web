@@ -3,22 +3,75 @@
     {
       "category": "agricolture",
       "type": "video",
-      "title": "Technique de transformation de Manioc Fatoumata",
-      "src": "/media/dgi/entrepreneurship/Entrepreunariat_Technique de transformation de Manioc Fatoumata TRAORE_1.mp4"
+      "title": "Technique de transformation des mangue 1ère partie",
+      "src": "/media/dgi/entrepreneurship/Entrepreneuriat_01 - Technique de transformation des mangue 1èrePartie_1.mp4"
     },
     {
       "category": "agricolture",
       "type": "video",
-      "title": "Technique de transformation des mangue 1ère Partie",
-      "src": "/media/dgi/entrepreneurship/Entrepreunariat_Technique de transformation des mangue 1èrePartie_1.mp4"
+      "title": "Technique de transformation des mangue 2ème partie",
+      "src": "/media/dgi/entrepreneurship/Entrepreneuriat_02 - Technique de transformation des mangue 2èmePartie_1.mp4"
     },
     {
       "category": "agricolture",
       "type": "video",
-      "title": "Technique de transformation des mangue 2ème Partie",
-      "src": "/media/dgi/entrepreneurship/Entrepreuneriat_Technique de transformation des mangue 2èmePartie_1.mp4"
+      "title": "TRAORE",
+      "src": "/media/dgi/entrepreneurship/Entrepreneuriat_03 - Technique de transformation de Manioc Fatoumata TRAORE_1.mp4"
     },
-
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Groupement des étuveuses de riz de Bama. 1ère partie",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_30 - Groupement des étuveuses de riz de Bama. 1ère partie . Dagara_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Groupement des étuveuses de riz de Bama. 2ème partie",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_31 - Groupement des étuveuses de riz de Bama.2ème partie.Dagara_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "L'entrepreunariat agricole chez les jeunes",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_34 - L_Entrepreunariat agricole chez les jeunes. Dagara_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Transformation des noix de karité",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_35 - Transformation des noix de karité. Dagara_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Bilan de la campagne",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_36 - Bilan de la campagne_Dagara_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Calendrier cultural du riz",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_37 - Calendrier cultural du riz-dagara_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Suivi des dépences",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_39 - Suivi des dépences_Dagara_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "L'agriculture contractuelle",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_44 - L_agriculture contractuelle. Dagara_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "SMI",
+      "src": "/media/dgi/entrepreneurship/Entrepreunariat_45 - SMI Dagara_1.mp4"
+    },
 
     {
       "category": "best-practice",
@@ -29,30 +82,238 @@
     {
       "category": "best-practice",
       "type": "video",
-      "title": "Bonnes techniques pour l'entretien d'un verger d'anacardiers",
-      "src": "/media/dgi/good practices/Bonnes pratiques_Bonnes techniques pour l_entretien d_un verger d_anacardiers Dagara_1.mp4"
+      "title": "Les différentes étapes pour la réalisation d'un verger de mangues",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_05 - Les différentes étapes pour la réalisation d_un verger de mangues OUATTARA Minata_1.mp4"
     },
     {
       "category": "best-practice",
       "type": "video",
-      "title": "Les différentes étapes pour la réalisation d'un verger de mangues",
-      "src": "/media/dgi/good practices/Bonnes pratiques_les différentes étapes pour la réalisation d_un verger de mangues OUATTARA Minata_1.mp4"
+      "title": "Bonnes techniques pour l'entretien d'un verger d'anacardiers",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_06 - Bonnes techniques pour l_entretien d_un verger d_anacardiers Dagara_1.mp4"
     },
-
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Description des maladies du riz",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_10 - Description des maladies du riz Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Protection des berges",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_11 - Protection des berges Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "La récupération des sols",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_13 - La récupération des sols - Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Traitement des maladies du riz",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_14 - Traitement des maladies du riz Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Maladie des légumes",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_15 - Maladie des légumes Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Fabrication et utilisation du neem",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_16 - Fabrication et utilisation du neem Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Quelques bonnes techniques de compostage",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_17 - Quelques bonnes techniques de compostage Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Fabrication du composte biologique",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_18 - Fabrication du composte biologique. Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Bonnes techniques de production du sésames",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_24 - Bonnes techniques de production du sésames.Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Techniques de récolte et de post-récolte du sésame",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_25-Techniques de récolte et de post-récolte du sésame. Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Techniques de recoltes et de postbrecoltes du sésame",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_26 - Techniques de recoltes et de postbrecoltes du sésame.Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Production sémencière du niébé",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_27 - Production sémencière du niébé.Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Production sémencière du niébé 2ème partie",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_28 - Production sémencière du niébé 2ème partie.Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Placement profond de l'urée ou PPU",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_29- Placement profond de l_urée ou PPU.Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Respect de l'utilisation des semences",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_38 - Respect de l_utilisation des semences_Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Points importants à planifier",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_40 - Points importants à planifier_Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Préparation des sols",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_42 - Préparation des sols_Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Utilisation du compost",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_43 - Utilisation du compost_Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Technique de meilleur rendement",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_46 - Technique de meilleur rendement. Dagara_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Approche GALS",
+      "src": "/media/dgi/good practices/Bonnes_pratiques_50 - Approche GALS. Dagara_1.mp"
+    },
 
     {
       "category": "innovation",
       "type": "video",
-      "title": "Les différentes varités de riz à faible consommation d'eau",
-      "src": "/media/dgi/innovation/Innovation_Les différentes varités de riz à faible consommation d_eau Dagara_1.mp4"
+      "title": "Les différentes variétés de riz à faible consommation d'eau",
+      "src": "/media/dgi/innovation/Innovation_04 - Les différentes variétés de riz à faible consommation d_eau Dagara_1.mp4"
     },
-
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Agriculture hors sol Adjaratou Sanogo",
+      "src": "/media/dgi/innovation/Innovation_07 Agriculture hors sol Adjaratou Sanogo_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "A la découverte des varités de mangue à haute rendement",
+      "src": "/media/dgi/innovation/Innovation_08 - A la découverte des varités de mangue à haute rendement Dagara_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Les avantages du goutte à goutte",
+      "src": "/media/dgi/innovation/Innovation_09 - Les avantages du goutte à goutte Dagara_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Le systeme de riziculture intensive",
+      "src": "/media/dgi/innovation/Innovation_12 - Le systeme de riziculture intensive Dagara_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Comment réaliser la technique du goutte à goutte",
+      "src": "/media/dgi/innovation/Innovation_20 - Comment réaliser la technique du goutte à goutte Dagara_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "La fabrication du Bokashi ou engrais bio",
+      "src": "/media/dgi/innovation/Innovation_21 - La fabrication du Bokashi  ou engrais bio. Dagara_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Pesticide bio Apichi",
+      "src": "/media/dgi/innovation/Innovation_22 - Pesticide bio Apichi.Dagara_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Comment fabriquer du compost",
+      "src": "/media/dgi/innovation/Innovation_41 - Comment fabriquer du compost_Dagara_1.mp4"
+    },
 
     {
       "category": "society",
       "type": "video",
       "title": "Protection des berges",
-      "src": "static/media/dgi/society/Société - Protection des berges Dagara_1.mp4"
+      "src": "/media/dgi/society/Société - Protection des berges Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Gestion de l_eau dans la plaine de Bama",
+      "src": "/media/dgi/society/Société_19 - Gestion de l_eau dans la plaine de Bama.Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Accompagnement des producteurs",
+      "src": "/media/dgi/society/Sociéte_23 - Accompagnement des producteurs. Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "L'accès des terres cultivables aux femmes. 1ème partie",
+      "src": "/media/dgi/society/Société_32 - L_accès des terres cultivables aux femmes.1ème partie.Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "L'accès des terres aux femmes. 2ème partie",
+      "src": "/media/dgi/society/Société_33 - L_accès des terres aux femmes 2èmepartie. Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes FBS. 1ère partie",
+      "src": "/media/dgi/society/Société_47 - Formateurs endogènes FBS.1ère partie. Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes FBS. 2ème partie",
+      "src": "/media/dgi/society/Société_48 - Formateurs endogènes FBS 2ème partie. Dagara_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateur endogène FBS 2",
+      "src": "/media/dgi/society/Société_49 - Formateur endogène FBS 2.Dagara_1.mp4"
     }
   ]
 }

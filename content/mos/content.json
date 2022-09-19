@@ -2,6 +2,78 @@
   "content": [
     {
       "category": "agricolture",
+      "type": "video",
+      "title": "Technique de transformations des mangues. 1ère partie",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_01 - Technique de transformations des mangues  1erePartie_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Technique de transformations des mangues. 2ème partie",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_02 - Technique de transformations des mangues  2èmePartie_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Technique de transformations de Manioc",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_03 - Technique de transformations manioc Fatoumata TRAORE Mooré~1_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Groupement des étuveuses de riz de Bama. 1ère partie",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_30 - Groupement des étuveuses de riz de Bama. 1ère partie Mooré_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Groupement des étuveuses de riz de Bama. 2ème partie",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_31 - Groupement des étuveuses de riz de Bama 2ère partie. Mooré_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Entrepreneuriat agricole chez les jeunes",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_34 - L_entrepreunariat agricole des jeunes. Mooré_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "La transformation des noix de karité",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_35 - La transformation des noix de karité . Mooré_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Bilan de la campagne",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_36 - Bilan de la campagne_Mooré_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Calendrier cultural du riz",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_37 - Calendrier cultural du riz-mooré_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Suivi des dépences",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_39 - Suivi des dépences_Mooré_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Agriculture contractuelle",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_44 - Agriculture contractuelle_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "SMI",
+      "src": "/media/mos/entrepreneurship/Entrepreunariat_45 - SMI. Mooré_1.mp4"
+    },
+    {
+      "category": "agricolture",
       "type": "audio",
       "title": "Assétou Koutou, une entrepreneuse du fourrage à bétail - TAT",
       "src": "/media/mos/entrepreneurship/Assétou Koutou, une entrepreneuse du fourrage à bétail - TAT.mp3"
@@ -13,8 +85,138 @@
       "src": "/media/mos/entrepreneurship/Les femmes de Lama dans la récolte du riz - TAT.mp3"
     },
 
-
-
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Les différentes étapes pour la réalisation d’un verger de mangue",
+      "src": "/media/mos/good practices/Bonnes_pratiques_05 - Les différentes étapes pour la réalisation d_un verger de mangue OUATTARA Minata Mooré~1_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Quelques bonnes techniques pour l’entretien d’un verger d’anacardiers",
+      "src": "/media/mos/good practices/Bonnes_pratiques_06 - Bonne technique pour l_entretien d_un verger d_anacardier Moustapha OUATTARA Mooré~1_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Description des maladies du riz",
+      "src": "/media/mos/good practices/Bonnes_pratiques_10 - Description des maladies du riz Dr Edgard TRAORE_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "La protection des berges",
+      "src": "/media/mos/good practices/Bonnes_pratiques_11 - La protection des berges_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Récuperation des sols techniques",
+      "src": "/media/mos/good practices/Bonnes_pratiques_13  - La récupération des sols_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Traitement des maladies du riz",
+      "src": "/media/mos/good practices/Bonnes_pratiques_14 - Le traitement des maladies du riz_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Maladies des légumes carotte tomate",
+      "src": "/media/mos/good practices/Bonnes_pratiques_15  - Le traitement des maladies des légumes_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Fabrication et utilisation de l'huile de neem",
+      "src": "/media/mos/good practices/Bonnes_pratiques_16 - Fabrication et utilisation de l_extrait de Neem_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Quelques techniques de compostage",
+      "src": "/media/mos/good practices/Bonnes_pratiques_17 - Quelques bonnes techniques de compostage_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Fabrication du compost bio",
+      "src": "/media/mos/good practices/Bonnes_pratiques_18 - Fabrication du compost bio_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Bonnes techniques de production du sésame",
+      "src": "/media/mos/good practices/Bonnes_pratiques_24 - Bonnes techniques de production du sésame. Mooré_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Techniques de récolte et de post-récolte du sésame. 1ème partie",
+      "src": "/media/mos/good practices/Bonnes_pratiques_25 - Techniques de récolte et de post-récolte du sésame. Mooré_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Techniques de récolte et de post-récolte du sésame. 2ème partie",
+      "src": "/media/mos/good practices/Bonnes_pratiques_26 - Techniques de récolte et de post-récolte du sésame 2ème partie. Mooré_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Production de la semence de niébé. 1ère partie",
+      "src": "/media/mos/good practices/Bonnes_pratiques_27 - Production de la semence du niébé 1ère partie_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Production de la semence de niébé. 2ème partie",
+      "src": "/media/mos/good practices/Bonnes_pratiques_28 - Production de la semence du niébé 2ème partie_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Placement profond de l'urée ou ppu",
+      "src": "/media/mos/good practices/Bonnes_pratiques_29 - Placement profond de l_urée. Mooré_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Respect de l'utilisation des semences",
+      "src": "/media/mos/good practices/Bonnes_pratiques_38 - Respect de l_utilisation des semences_Mooré_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Points importants à planifier",
+      "src": "/media/mos/good practices/Bonnes_pratiques40 - Points importants à planifier_Mooré_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Préparation des sols",
+      "src": "/media/mos/good practices/Bonnes_pratiques42 - Préparation des sols_Mooré_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Utilisation du compost",
+      "src": "/media/mos/good practices/Bonnes_pratiques43 - Utilisation du compost_Mooré_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Technique de meilleur rendement",
+      "src": "/media/mos/good practices/Bonnes_pratique_46 - Technique de meilleure rendement. Mooré_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Approche GALS",
+      "src": "/media/mos/good practices/Bonnes_pratiques_50 - Approche GALS Mooré_1.mp4"
+    },
     {
       "category": "best-practice",
       "type": "audio",
@@ -28,8 +230,60 @@
       "src": "/media/mos/good practices/Techniques de conservations des aliments pour bétails en saison sèche - TAT.mp3"
     },
 
-
-
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Les différentes variétés de riz à faibles consommations d’eau",
+      "src": "/media/mos/innovation/Innovation_04 - Différentes variétés de riz à faible consommation d_eau Dr Edgard TRAORE Mooré~1_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "L’agriculture hors sol comme alternative",
+      "src": "/media/mos/innovation/Innovation_07 - L_agriculture hors sol comme alternative Adjaratou SANOGO Mooré~1_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "À la découverte de variété de mangue à haut rendement Harouna",
+      "src": "/media/mos/innovation/Innovation_08 - A la découverte de variété de mangue à haut rendement Harouna TRAORE Mooré~1_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Les avantages du goutte-à-goutte",
+      "src": "/media/mos/innovation/Innovation_09 - Goutte à goutte Sidiki TOE Mooré_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Le Système de riziculture intensive",
+      "src": "/media/mos/innovation/Innovation_12 - Le système de riziculture intensive_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Comment réaliser la technique du goutte-à-goutte",
+      "src": "/media/mos/innovation/Innovation_20 - Comment réaliser la technique du  goutte à goutte_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Le BOKASHI",
+      "src": "/media/mos/innovation/Innovation_21 - Le Bokashi ou engrain bio. Mooré_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Pesticide bio",
+      "src": "/media/mos/innovation/Innovation_22 - Le pesticide bio Apichi. Mooré_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Comment fabriquer du compost",
+      "src": "/media/mos/innovation/Innovation_41 - Comment fabriquer du compost_Mooré_1.mp4"
+    },
     {
       "category": "innovation",
       "type": "audio",
@@ -37,8 +291,48 @@
       "src": "/media/mos/innovation/Techniques de conservations des aliments pour bétails en saison sèche - TAT.mp3"
     },
 
-
-
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Gestion de l'eau dans la plaine de Bama Abasse",
+      "src": "/media/mos/society/Société_19 - Gestion de l_eau dans la plaine de Bama Abasse OUEDRAOGO_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Accompagnement des producteurs",
+      "src": "/media/mos/society/Société_23 - Accompagnement des producteurs. Mooré_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Accès des terres aux femmes. 1ère partie",
+      "src": "/media/mos/society/Société_32 - L_accès des terres cultivables pour les femmes. 1ère partie .Mooré_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Accès des terres aux femmes. 1ème partie",
+      "src": "/media/mos/society/Société_33 - L_accès des terres cultivables pour les femmes 2ème partie. Mooré_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes FBS. 1ère partie",
+      "src": "/media/mos/society/Société_47 - Formateur endogène FBS 1ère partie. Mooré_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes FBS. 2ème partie",
+      "src": "/media/mos/society/Société_48 - Formateurs endogènes FBS_2èmePartie_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes FBS",
+      "src": "/media/mos/society/Société_49 - Formateurs endogènes FBS Mooré_1.mp4"
+    },
     {
       "category": "society",
       "type": "video",
