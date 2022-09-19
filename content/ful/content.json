@@ -2,6 +2,78 @@
   "content": [
     {
       "category": "agricolture",
+      "type": "video",
+      "title": "Technique de transformation des mangues. 1ère partie",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_01-Technique de transformation des mangues 1èrePartie_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Technique de transformation des mangues. 2ème partie",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_02-Technique de transformation des mangues 2èmePartie_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Transformation de manioc",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_03-Transformation de manioc ful_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Groupement des étuveuses de riz de Bama. 1ère partie",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_30 - Groupement des étuveuses de riz de Bama_1èrePartie FUL_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Groupement des étuveuses de riz de Bama. 2ème partie",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_ 31 - Groupement des étuveuses de riz de Bama_2èmePartie FUL bon_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Entrepreneuriat agricole chez les jeunes",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_34 - Entrepreneuriat agricole chez les jeunes ful bon_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "La transformation des noix de karité",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_35 - La transformation des noix de karité ful_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Bilan de la campagne",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_36 - Bilan de la campagne_Fulfuldé_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Calendrier cultural du riz",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_37 - Calendrier cultural du riz-fulfuldé_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Suivi des dépences",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_39 - Suivi des dépences_Fulfuldé_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "Agriculture contractuelle",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_44 - Agriculture contractuelle ful_1.mp4"
+    },
+    {
+      "category": "agricolture",
+      "type": "video",
+      "title": "SMI",
+      "src": "/media/ful/entrepreneurship/Entrepreunariat_45 - SMI FUL_1.mp4"
+    },
+    {
+      "category": "agricolture",
       "type": "audio",
       "title": "Les femme de Lama dans la récolte du riz - TAT",
       "src": "/media/ful/entrepreneurship/Les femme de Lama dans la récolte du riz - TAT.mp3"
@@ -13,8 +85,138 @@
       "src": "/media/ful/entrepreneurship/Portrait de Oumar Cissé, jeune agro-entrepreneur - TAT.mp3"
     },
 
-
-
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Les étapes pour la réalisation d'un verger de mangue",
+      "src": "/media/ful/good practices/Bonnes_pratiques_05-Les étapes pour la réalisation d_un verger de mangue ful_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Quelques bonnes techniques pour l’entretien d’un verger d’anacardiers",
+      "src": "/media/ful/good practices/Bonnes_pratiques_06-Quelques bonnes techniques pour l’entretien d’un verger d’anacardiers ful_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Description des maladies du riz",
+      "src": "/media/ful/good practices/Bonnes_pratiques_10-Description des maladies du riz fulfulde_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "La protection des berge",
+      "src": "/media/ful/good practices/Bonnes_pratiques_11-La protection des berge_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "La récuperation des sols",
+      "src": "/media/ful/good practices/Bonnes_pratiques_13-La récuperation des sols_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Le traitement des maladies du riz",
+      "src": "/media/ful/good practices/Bonnes_pratiques_14-Le traitement des maladies du riz_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Le traitement des maladies des legumes",
+      "src": "/media/ful/good practices/Bonnes_pratiques_15-Le traitement des maladies des legumes_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Fabrication et utilisation des extraits du Neem",
+      "src": "/media/ful/good practices/Bonnes_pratiques_16-Fabrication et utilisation des extraits du Neem_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Quelques bonnes techniques compostages",
+      "src": "/media/ful/good practices/Bonnes_pratiques_17-Quelques bonnes techniques compostages_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Fabrication du compost bio",
+      "src": "/media/ful/good practices/Bonnes_pratiques_18 - Fabrication du compost bio FUL.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Bonnes techniques de production du sésame",
+      "src": "/media/ful/good practices/Bonnes_pratiques_24 - Bonnes techniques de production du sésame ful_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Techniques de récolte et de post-récolte du sésame. 1ème partie",
+      "src": "/media/ful/good practices/Bonnes_pratiques_25 - Techniques de récolte et de post-récolte du sésame ful_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Techniques de récolte et de post-récolte du sésame. 2ème partie",
+      "src": "/media/ful/good practices/Bonnes_pratiques_26 - Techniques de récolte et de post-récolte du sésame_2èmePartie ful_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Production sémencière de niébé. 1ère partie",
+      "src": "/media/ful/good practices/Bonnes_pratiques_27 - Production sémencière de niébé_1ère Partie ful_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Production sémencière de niébé. 2ème partie",
+      "src": "/media/ful/good practices/Bonnes_pratiques_28 - Production sémencière de niébé_2ème Partie ful bon_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Placement profond de l'urée",
+      "src": "/media/ful/good practices/Bonnes_pratiques_29 - Placement profond de l_urée ful_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Respect de l'utilisation des semences",
+      "src": "/media/ful/good practices/Bonnes_pratiques_38 - Respect de l_utilisation des semences_Fulfuldé_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Points importants à planifier",
+      "src": "/media/ful/good practices/Bonnes_pratiques_40 - Points importants à planifier_Fulfuldé_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Préparation des sols",
+      "src": "/media/ful/good practices/Bonnes_pratiques_42 - Préparation des sols_Fulfuldé_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Utilisation du compost",
+      "src": "/media/ful/good practices/Bonnes_pratiques_43 - Utilisation du compost_Fulfuldé_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Technique de meilleur rendement",
+      "src": "/media/ful/good practices/Bonnes_pratiques_46 - Technique de meilleur rendement FUL_1.mp4"
+    },
+    {
+      "category": "best-practice",
+      "type": "video",
+      "title": "Approche GALS",
+      "src": "/media/ful/good practices/Bonnes_pratiques_50 - Approche GALS FUL_1.mp4"
+    },
     {
       "category": "best-practice",
       "type": "audio",
@@ -28,8 +230,60 @@
       "src": "/media/ful/good practices/Les Bonnes pratiques pour avoir un environnement sain -TAT.mp3"
     },
 
-
-
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Differents varietés de riz à faible consommation",
+      "src": "/media/ful/innovation/Innovation_04-Differents varietés de riz à faible consommation ful bon_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Agriculture hors-sol. Rencontre avec Mme SANOGO",
+      "src": "/media/ful/innovation/Innovation_07-Agriculture hors-sol_rencontre avec Mme SANOGO FUL.mp4_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "A la decouverte de variete de mangue a haut rendement",
+      "src": "/media/ful/innovation/Innovation_08-A la decouverte de variete de mangue a haut rendement ful_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Les avantages du goutte-à-goutte",
+      "src": "/media/ful/innovation/Innovation_09-Les avantages du goutte a goutte_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Le systeme riziculture intensive",
+      "src": "/media/ful/innovation/Innovation_12-Le systeme riziculture intensive_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Comment réaliser la technique du goutte-à-goutte",
+      "src": "/media/ful/innovation/Innovation_20-Comment réaliser la technique du goutte-à-goutte ful bon_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Le BOKASHI",
+      "src": "/media/ful/innovation/Innovation_21 - Le BOKASHI FUL_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Pesticide bio",
+      "src": "/media/ful/innovation/Innovation_22 - Pesticide bio (Apichi) FUL BON_1.mp4"
+    },
+    {
+      "category": "innovation",
+      "type": "video",
+      "title": "Comment fabriquer du compost",
+      "src": "/media/ful/innovation/Innovation_41 - Comment fabriquer du compost_Fulfuldé_1.mp4"
+    },
     {
       "category": "innovation",
       "type": "audio",
@@ -43,7 +297,48 @@
       "src": "/media/ful/innovation/Système rizicole intensif - TAT.mp3"
     },
 
-
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Gestion de l_eau dans la plaine de Bama",
+      "src": "/media/ful/society/Société_19 - Gestion de l_eau dans la plaine de Bama Abasse OUEDRAOGO ful_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Accompagnement des producteurs",
+      "src": "/media/ful/society/Société_23 - Accompagnement des producteurs FUL_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Accès des terres aux femmes. 1ère partie",
+      "src": "/media/ful/society/Société_32 - Accès des terres aux femmes_1èrePartie ful bon BON_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Accès des terres aux femmes. 2ème partie",
+      "src": "/media/ful/society/Société_33 - Accès des terres aux femmes_2èmePartie FUL BON_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes FBS. 1ère partie",
+      "src": "/media/ful/society/Société_47 - Formateurs endogènes FBS_1erePartie FUL_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes FBS. 2ème partie",
+      "src": "/media/ful/society/Société_48 - Formateurs endogènes FBS_2èmePartie FUL_1.mp4"
+    },
+    {
+      "category": "society",
+      "type": "video",
+      "title": "Formateurs endogènes",
+      "src": "/media/ful/society/Société_49 - Formateurs endogènesFBS 02 FUL_1.mp4"
+    },
     {
       "category": "society",
       "type": "audio",
